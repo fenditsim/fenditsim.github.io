@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Fendi Tsim"
+  search: false
+  favicon: img/logo.png
+  navbar:
+    background: "#fff0db"
+    foreground: "#61412c"
+    right:
+      - text: "About Me"
+        href: resume/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Writings"
+        href: writings/index.qmd
+      - text: "Gallery"
+        href: gallery/index.qmd
+    
+  page-footer: 
+    background: "#fff0db"
+    foreground: "#61412c"
+    left: "© 2024 Fendi Tsim" 
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: minty
+    backgroundcolor: "#fff0db"
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    anchor-sections: true
+    section-divs: true
+
+editor: visual
