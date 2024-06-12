@@ -1,8 +1,0 @@
----
-title: "What I've been thinking lately"
-listing:
-  sort: "date desc"
-  type: table
-  fields: [date, title]
-  categories: false
----

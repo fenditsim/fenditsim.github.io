@@ -1,7 +1,0 @@
----
-title: "What I've been working on"
-listing:
-  sort: "date desc"
-  type: default
-  categories: false
----
