@@ -5,6 +5,7 @@ format:
   html:
     toc: true
 date: "2024-05-16"
+date-modified: "2024-06-14"
 ---
 
 After working extensively with R in the past few years, I have a few tips that can improve user's experience while searching within R's environment (see below).
@@ -13,7 +14,7 @@ After working extensively with R in the past few years, I have a few tips that c
 
 ## Starting name of an object according to its type
 
-We often encounter a number of objects when analyzing data with R, such as variable, data (such as data.frame, list), function etc. One trick I often do is to start an object's name with an abbreviation of its type. For instance, I would start a function's name with `fx.` .
+We often encounter a number of objects when analyzing data with R, such as variable, data (such as data.frame, list), function etc. One trick I often do is to start an object's name with an abbreviation of its type, or a 'prefix'. For instance, I would start a function's name with `fx.` .
 
 ```{r}
 fx.foo <- function(){}
@@ -42,7 +43,27 @@ dim(data.mtcars)[2] # No. of columns in our raw data
 dim(df.mtcars)[2] # No. of columns in our sorted data
 ```
 
-Here raw data start with `data.`, while sorted data start with `df.` - an easy way to distinguish them!
+Here raw data start with `data.`, while sorted data start with `df.` - an easy way to distinguish them! This is a nicer (and quicker) way for retrieving a specific data.frame object in R's environment when I type `data.` in R's console, and a small box next to it shows relevant functions and objects. Then I can simply click tab button to select!
+
+With this nice way to naming objects in R's environment, it is thus easier for us to remove unnecessary objects at once. In this example, our R's environment has:
+
+```{r}
+ls()
+```
+
+Suppose I want to remove all customized functions I've imported (those start with `fx.`). Then I can run the following command:
+
+```{r}
+rm(list=ls(pattern = 'fx.'))
+```
+
+Here I use `rm(` for removing objects in R's environment. I specify a character variable called 'list', which is a list of object names that has a pattern of 'fx.' in R's environment.
+
+Then I check how my current R's environment looks like:
+
+```{r}
+ls()
+```
 
 ## Configurations
 
@@ -61,3 +82,11 @@ The `configs` contains two sets of keys: `sessions` for three sessions and `cond
 -   Easily changeable: if, for some reasons, I would need to change the keys for running the code, I could simply change them here rather than tracing every related part of the code.
 
 Note that I don't name all keys and its elements with a capital letter - easy to type without pressing the shift key on your keyboard whenever retrieving them!
+
+## Freeing up unused R memory
+
+Often I make sure I have sufficient amount of memory in R's environment. To do so I can either the option next to 'Import Dataset' in Environment tab, then select 'Free unused R memory', or I can run with `gc()`.
+
+## Backing up and Loading saved R's environment
+
+Often I do some programming with R, I start with a command of loading saved R's environment as `.RData` with `load()` function, and ends with `save.image()` to save my progress as `.RData`.
