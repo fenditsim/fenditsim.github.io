@@ -5,6 +5,7 @@ lightbox:
   desc-position: bottom
 format:
   html:
+    title: "Gallery"
     toc: true
 ---
 
