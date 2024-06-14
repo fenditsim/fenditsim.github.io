@@ -57,7 +57,7 @@ Suppose I want to remove all customized functions I've imported (those start wit
 rm(list=ls(pattern = 'fx.'))
 ```
 
-Here I use `rm(` for removing objects in R's environment. I specify a character variable called 'list', which is a list of object names that has a pattern of 'fx.' in R's environment.
+Here I use `rm()` for removing objects in R's environment. I specify a character variable called 'list', which is a list of object names that has a pattern of 'fx.' in R's environment.
 
 Then I check how my current R's environment looks like:
 
