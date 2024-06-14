@@ -1,8 +1,7 @@
 ---
-title-meta: "About Me"
+pagetitle: "About Me"
 format:
   html:
-    title-prefix: "About Me"
     toc: true
     tbl-colwidths: [30, 60]
 ---

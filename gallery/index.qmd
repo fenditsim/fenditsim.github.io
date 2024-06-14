@@ -1,11 +1,11 @@
 ---
+pagetitle: "Gallery"
 lightbox:
   match: auto
   effect: zoom
   desc-position: bottom
 format:
   html:
-    title: "Gallery"
     toc: true
 ---
 

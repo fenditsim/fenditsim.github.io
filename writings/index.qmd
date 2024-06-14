@@ -1,4 +1,5 @@
 ---
+pagetitle: "Writings"
 title: "What I've been thinking lately"
 listing:
   sort: "date desc"
