@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/creating-a-personal-website-with-quarto/index.html",
+      "/projects/tips-on-working-with-r-environment/index.html",
+      "/projects/FxCAs/index.html",
+      "/projects/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html"
+    ]
+  },
+  {
     "listing": "/writings/index.html",
     "items": [
       "/writings/in-the-eye-of-cyclone/index.html",
@@ -8,14 +17,6 @@
       "/writings/book-reflection-small-change/index.html",
       "/writings/book-reflection-at-the-existentialist-cafe/index.html",
       "/writings/reading-a-book-for-a-week-challenge-2023/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/tips-on-working-with-r-environment/index.html",
-      "/projects/FxCAs/index.html",
-      "/projects/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html"
     ]
   }
 ]
