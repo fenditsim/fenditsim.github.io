@@ -129,4 +129,4 @@ format:
 
 # Skills
 
-R, Python, MATLAB, oTree, MySQL, Stata, Mplus, SPSS, Quarto, Astro, Excel, Powerpoint, Word, LaTeX
+R, Python, Git, oTree, MATLAB, MySQL, Stata, Mplus, SPSS, Quarto, Astro, Excel, Powerpoint, Word, LaTeX
