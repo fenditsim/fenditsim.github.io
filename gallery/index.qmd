@@ -9,6 +9,50 @@ format:
     toc: true
 ---
 
+# June 2024
+
+::: colunmns
+::: {.column width="30%"}
+![How to deal with hot weather...](../img/202406-01.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"} 
+![Summer is coming!](../img/202406-02.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"}
+![Meowjesty <3](../img/202406-03.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"} 
+![Absolutely breathtaking.](../img/202406-04.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"}
+![Yum Cha!](../img/202406-05.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"} 
+![Picnic at St. James Park, London](../img/202406-06.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"}
+![Hats off to these lovely flowers that grows in difficult places.](../img/202406-07.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"} 
+![In love with Sunday morning workout!](../img/202406-08.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"}
+![Soon.](../img/202406-09.jpeg){group="2024-06"}
+:::
+
+::: {.column width="30%"} 
+![Let's call it a day, shall we?](../img/202406-10.mp4){group="2024-06"}
+:::
+:::
+
 # May 2024
 
 ::: colunmns
