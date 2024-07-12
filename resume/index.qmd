@@ -138,15 +138,16 @@ format:
 -  Web scrapping
 -  Creating package
 -  Data Manipulation with dplyr, data.table
--  
 :::
 :::
 
 ::: {.column width="48%"}
 ::: {.callout-warning title="Python" icon=false collapse="true"}
--  Conducting experiment with oTree
+-  Conducting web-based interactive tasks with oTree
 -  Data Manipulation with Pandas
+-  Statistical Analysis
 -  Data Visualization with Matplotlib
+-  NumPy and SciPy
 :::
 :::
 
@@ -169,7 +170,7 @@ format:
 ::: {.callout-warning title="Matlab" icon=false collapse="true"}
 -  Statistical Analysis
 -  Data Visualization
--  Simulation (Agent Based Modelling)
+-  Simulation (Agent-Based Modelling)
 :::
 :::
 
