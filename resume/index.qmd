@@ -128,5 +128,86 @@ format:
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 # Skills
+::: colunmns
+::: {.column width="48%"}
+::: {.callout-tip title="R" icon=false collapse="true"}
+-  Statistical Analysis
+-  Time Series Analysis
+-  Data Visualization with ggplot2, Plotly and Leaflet
+-  Web Development with Shiny and Quarto
+-  Web scrapping
+-  Creating package
+-  Data Manipulation with dplyr, data.table
+-  
+:::
+:::
 
-R, Python, Git, oTree, MATLAB, MySQL, Stata, Mplus, SPSS, Quarto, Astro, Excel, Powerpoint, Word, LaTeX
+::: {.column width="48%"}
+::: {.callout-warning title="Python" icon=false collapse="true"}
+-  Conducting experiment with oTree
+-  Data Manipulation with Pandas
+-  Data Visualization with Matplotlib
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-tip title="Git" icon=false collapse="true"}
+-  Version Control with repository
+-  Website Deployment (with Shiny (Shinylive) and Quarto)
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-warning title="SQL" icon=false collapse="true"}
+-  Data Manipulation
+-  Aggregate Functions
+-  Connecting Tables
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-warning title="Matlab" icon=false collapse="true"}
+-  Statistical Analysis
+-  Data Visualization
+-  Simulation (Agent Based Modelling)
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-caution title="Stata" icon=false collapse="true"}
+-  Data Management
+-  Statistical Analysis
+-  Data Visualization
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-caution title="Mplus" icon=false collapse="true"}
+-  Data Management
+-  Data Analysis such as Structural Equation Modelling
+-  Connecting with R
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-caution title="SPSS" icon=false collapse="true"}
+-  Data Management
+-  Statistical Analysis
+-  Data Visualization
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-caution title="Astro" icon=false collapse="true"}
+-  Web Development with HTML, Javascript and CSS
+:::
+:::
+
+::: {.column width="48%"}
+::: {.callout-tip title="Microsoft software" icon=false collapse="true"}
+-  Word
+-  PowerPoint
+-  Excel
+:::
+:::
+:::
