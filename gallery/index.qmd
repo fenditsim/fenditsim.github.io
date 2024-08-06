@@ -9,6 +9,58 @@ format:
     toc: true
 ---
 
+# July 2024
+
+::: colunmns
+::: {.column width="30%"}
+![How to deal with hot weather in London... with gelato!](../img/202407-01.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Lucky day!](../img/202407-02.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+!["What are you looking at?"](../img/202407-03.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Absolutely breathtaking - reminds me of Harry Potter...](../img/202407-04.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Lovely wall inside an Asian restaurant in Oxford.](../img/202407-05.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Congrats to all graduates!](../img/202407-06.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Finally it's summer time!](../img/202407-07.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Full moon.](../img/202407-08.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![On the move!](../img/202407-09.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Time for a rest.](../img/202407-10.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![Glad that my friend and I met a peacock in Kyoto Garden!](../img/202407-11.jpeg){group="2024-07"}
+:::
+
+::: {.column width="30%"}
+![What a view in Holland Park, London!](../img/202407-12.jpeg){group="2024-07"}
+:::
+:::
+
 # June 2024
 
 ::: colunmns
@@ -16,15 +68,15 @@ format:
 ![How to deal with hot weather...](../img/202406-01.jpeg){group="2024-06"}
 :::
 
-::: {.column width="30%"} 
+::: {.column width="30%"}
 ![Summer is coming!](../img/202406-02.jpeg){group="2024-06"}
 :::
 
 ::: {.column width="30%"}
-![Meowjesty <3](../img/202406-03.jpeg){group="2024-06"}
+![Meowjesty \<3](../img/202406-03.jpeg){group="2024-06"}
 :::
 
-::: {.column width="30%"} 
+::: {.column width="30%"}
 ![Absolutely breathtaking.](../img/202406-04.jpeg){group="2024-06"}
 :::
 
@@ -32,7 +84,7 @@ format:
 ![Yum Cha!](../img/202406-05.jpeg){group="2024-06"}
 :::
 
-::: {.column width="30%"} 
+::: {.column width="30%"}
 ![Picnic at St. James Park, London](../img/202406-06.jpeg){group="2024-06"}
 :::
 
@@ -40,7 +92,7 @@ format:
 ![Hats off to these lovely flowers that grows in difficult places.](../img/202406-07.jpeg){group="2024-06"}
 :::
 
-::: {.column width="30%"} 
+::: {.column width="30%"}
 ![In love with Sunday morning workout!](../img/202406-08.jpeg){group="2024-06"}
 :::
 
@@ -48,7 +100,7 @@ format:
 ![Soon.](../img/202406-09.jpeg){group="2024-06"}
 :::
 
-::: {.column width="30%"} 
+::: {.column width="30%"}
 ![Let's call it a day, shall we?](../img/202406-10.mp4){group="2024-06"}
 :::
 :::
