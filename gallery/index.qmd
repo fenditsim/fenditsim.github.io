@@ -9,6 +9,52 @@ format:
     toc: true
 ---
 
+# August 2024
+
+::: columns
+::: {.column width="30%"}
+![Gonna miss this KFC.](../img/202408-01.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![A lovely gift for a friend's birthday](../img/202408-02.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![What a wonderful meal!](../img/202408-03.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![A great illustration of two attachment styles from Anxiously Attached.](../img/202408-04.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![Tick Tock, Tick Tock...](../img/202408-05.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![Last sunset in Coventry.](../img/202408-06.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![Can't believe this beach inside London!](../img/202408-07.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![A lovely sunset in Ealing.](../img/202408-08.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+!['When I stare at the darkness, so does the darkness.'](../img/202408-09.jpeg){group="2024-08"}
+:::
+
+::: {.column width="30%"}
+![Big Ben.](../img/202408-10.jpeg){group="2024-08"}
+:::
+
+:::
+
+
 # July 2024
 
 ::: colunmns
