@@ -68,7 +68,7 @@ format:
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                      |                                                                                                                                                                                        |
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Feb 2024 - Now       | Co-President                                                                                                                                                                           |
+| Feb 2024 - Aug 2024  | Co-President                                                                                                                                                                           |
 |                      |                                                                                                                                                                                        |
 |                      | Warwick Business School PhD Students Society                                                                                                                                           |
 |                      |                                                                                                                                                                                        |
@@ -128,87 +128,88 @@ format:
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 # Skills
+
 ::: colunmns
 ::: {.column width="48%"}
-::: {.callout-tip title="R" icon=false collapse="true"}
--  Statistical Analysis
--  Time Series Analysis
--  Data Visualization with ggplot2, Plotly and Leaflet
--  Web Development with Shiny and Quarto
--  Web scrapping
--  Creating package
--  Data Manipulation with dplyr, data.table
+::: {.callout-tip title="R" icon="false" collapse="true"}
+-   Statistical Analysis
+-   Time Series Analysis
+-   Data Visualization with ggplot2, Plotly and Leaflet
+-   Web Development with Shiny and Quarto
+-   Web scrapping
+-   Creating package
+-   Data Manipulation with dplyr, data.table
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-warning title="Python" icon=false collapse="true"}
--  Conducting web-based interactive tasks with oTree
--  Data Manipulation with Pandas
--  Statistical Analysis
--  Data Visualization with Matplotlib
--  NumPy and SciPy
+::: {.callout-warning title="Python" icon="false" collapse="true"}
+-   Conducting web-based interactive tasks with oTree
+-   Data Manipulation with Pandas
+-   Statistical Analysis
+-   Data Visualization with Matplotlib
+-   NumPy and SciPy
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-tip title="Git" icon=false collapse="true"}
--  Version Control with repository
--  Website Deployment (with Shiny (Shinylive) and Quarto)
+::: {.callout-tip title="Git" icon="false" collapse="true"}
+-   Version Control with repository
+-   Website Deployment (with Shiny (Shinylive) and Quarto)
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-warning title="SQL" icon=false collapse="true"}
--  Data Manipulation
--  Aggregate Functions
--  Connecting Tables
+::: {.callout-warning title="SQL" icon="false" collapse="true"}
+-   Data Manipulation
+-   Aggregate Functions
+-   Connecting Tables
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-warning title="Matlab" icon=false collapse="true"}
--  Statistical Analysis
--  Data Visualization
--  Simulation (Agent-Based Modelling)
+::: {.callout-warning title="Matlab" icon="false" collapse="true"}
+-   Statistical Analysis
+-   Data Visualization
+-   Simulation (Agent-Based Modelling)
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-caution title="Stata" icon=false collapse="true"}
--  Data Management
--  Statistical Analysis
--  Data Visualization
+::: {.callout-caution title="Stata" icon="false" collapse="true"}
+-   Data Management
+-   Statistical Analysis
+-   Data Visualization
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-caution title="Mplus" icon=false collapse="true"}
--  Data Management
--  Data Analysis such as Structural Equation Modelling
--  Connecting with R
+::: {.callout-caution title="Mplus" icon="false" collapse="true"}
+-   Data Management
+-   Data Analysis such as Structural Equation Modelling
+-   Connecting with R
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-caution title="SPSS" icon=false collapse="true"}
--  Data Management
--  Statistical Analysis
--  Data Visualization
+::: {.callout-caution title="SPSS" icon="false" collapse="true"}
+-   Data Management
+-   Statistical Analysis
+-   Data Visualization
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-caution title="Astro" icon=false collapse="true"}
--  Web Development with HTML, Javascript and CSS
+::: {.callout-caution title="Astro" icon="false" collapse="true"}
+-   Web Development with HTML, Javascript and CSS
 :::
 :::
 
 ::: {.column width="48%"}
-::: {.callout-tip title="Microsoft software" icon=false collapse="true"}
--  Word
--  PowerPoint
--  Excel
+::: {.callout-tip title="Microsoft software" icon="false" collapse="true"}
+-   Word
+-   PowerPoint
+-   Excel
 :::
 :::
 :::
