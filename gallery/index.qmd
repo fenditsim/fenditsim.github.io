@@ -9,9 +9,46 @@ format:
     toc: true
 ---
 
+# September 2024
+::::::::::::: columns
+::: {.column width="30%"}
+![Being a petsitter :) - an unforgettable experience!](../img/202409-01.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![What a breathtaking sunset...](../img/202409-02.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![This is the advice I need right now.](../img/202409-03.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![Happy Mid-Autumn Festival! A lovely full moon!](../img/202409-04.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![Fascinating book to read. What he taught is not only applicable for personal finance but other aspects in life as well.](../img/202409-05.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![Feeling so lucky to see this majestic performance in Warner Brothers Harry Potter Studio!!!](../img/202409-06.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![Once-in-a-lifetime event! Thanks Eve for this valuable opportunity!!!](../img/202409-07.jpeg){group="2024-09"}
+:::
+
+::: {.column width="30%"}
+![Reminds me of a cover from the book The Body Keeps The Score.](../img/202409-08.jpeg){group="2024-09"}
+:::
+:::::::::::::
+
+
+
 # August 2024
 
-::: columns
+::::::::::::: columns
 ::: {.column width="30%"}
 ![Gonna miss this KFC.](../img/202408-01.jpeg){group="2024-08"}
 :::
@@ -51,13 +88,11 @@ format:
 ::: {.column width="30%"}
 ![Big Ben.](../img/202408-10.jpeg){group="2024-08"}
 :::
-
-:::
-
+:::::::::::::
 
 # July 2024
 
-::: colunmns
+::::::::::::::: colunmns
 ::: {.column width="30%"}
 ![How to deal with hot weather in London... with gelato!](../img/202407-01.jpeg){group="2024-07"}
 :::
@@ -105,11 +140,11 @@ format:
 ::: {.column width="30%"}
 ![What a view in Holland Park, London!](../img/202407-12.jpeg){group="2024-07"}
 :::
-:::
+:::::::::::::::
 
 # June 2024
 
-::: colunmns
+::::::::::::: colunmns
 ::: {.column width="30%"}
 ![How to deal with hot weather...](../img/202406-01.jpeg){group="2024-06"}
 :::
@@ -149,11 +184,11 @@ format:
 ::: {.column width="30%"}
 ![Let's call it a day, shall we?](../img/202406-10.mp4){group="2024-06"}
 :::
-:::
+:::::::::::::
 
 # May 2024
 
-::: colunmns
+::::::::::: colunmns
 ::: {.column width="30%"}
 ![Gas Street Basin, Birmingham](../img/202405-01.jpeg){group="2024-05"}
 :::
@@ -185,11 +220,11 @@ format:
 ::: {.column width="30%"}
 ![Mid-Levels (Central, Hong Kong)](../img/202405-08.jpeg){group="2024-05"}
 :::
-:::
+:::::::::::
 
 # April 2024
 
-::: colunmns
+:::::::: colunmns
 ::: {.column width="30%"}
 ![Latte from Beans and Leaf Coffee House, Coventry](../img/202404-01.jpeg){group="2024-04"}
 :::
@@ -209,4 +244,4 @@ format:
 ::: {.column width="30%"}
 ![The weather is getting better - taken at University of Warwick](../img/202404-05.jpeg){group="2024-04"}
 :::
-:::
+::::::::
