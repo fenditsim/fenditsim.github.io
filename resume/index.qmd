@@ -9,7 +9,7 @@ format:
 # Education
 
 +----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Sept 2020 - Now      | PhD in Business and Management                                                                                                                                                                                                              |
+| Sept 2020 - Jul 2024 | PhD in Behavioural Science                                                                                                                                                                                                                  |
 |                      |                                                                                                                                                                                                                                             |
 |                      | Warwick Business School, University of Warwick                                                                                                                                                                                              |
 |                      |                                                                                                                                                                                                                                             |
@@ -62,7 +62,7 @@ format:
 # Experience
 
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Apr 2024 - Now       | Webmaster                                                                                                                                                                              |
+| Apr 2024 - Oct 2024  | Webmaster                                                                                                                                                                              |
 |                      |                                                                                                                                                                                        |
 |                      | EGUK/CGVC                                                                                                                                                                              |
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -129,8 +129,8 @@ format:
 
 # Skills
 
-::: colunmns
-::: {.column width="48%"}
+::::::::::::::::::::::: colunmns
+:::: {.column width="48%"}
 ::: {.callout-tip title="R" icon="false" collapse="true"}
 -   Statistical Analysis
 -   Time Series Analysis
@@ -140,9 +140,9 @@ format:
 -   Creating package
 -   Data Manipulation with dplyr, data.table
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-warning title="Python" icon="false" collapse="true"}
 -   Conducting web-based interactive tasks with oTree
 -   Data Manipulation with Pandas
@@ -150,66 +150,66 @@ format:
 -   Data Visualization with Matplotlib
 -   NumPy and SciPy
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-tip title="Git" icon="false" collapse="true"}
 -   Version Control with repository
 -   Website Deployment (with Shiny (Shinylive) and Quarto)
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-warning title="SQL" icon="false" collapse="true"}
 -   Data Manipulation
 -   Aggregate Functions
 -   Connecting Tables
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-warning title="Matlab" icon="false" collapse="true"}
 -   Statistical Analysis
 -   Data Visualization
 -   Simulation (Agent-Based Modelling)
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-caution title="Stata" icon="false" collapse="true"}
 -   Data Management
 -   Statistical Analysis
 -   Data Visualization
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-caution title="Mplus" icon="false" collapse="true"}
 -   Data Management
 -   Data Analysis such as Structural Equation Modelling
 -   Connecting with R
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-caution title="SPSS" icon="false" collapse="true"}
 -   Data Management
 -   Statistical Analysis
 -   Data Visualization
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-caution title="Astro" icon="false" collapse="true"}
 -   Web Development with HTML, Javascript and CSS
 :::
-:::
+::::
 
-::: {.column width="48%"}
+:::: {.column width="48%"}
 ::: {.callout-tip title="Microsoft software" icon="false" collapse="true"}
 -   Word
 -   PowerPoint
 -   Excel
 :::
-:::
-:::
+::::
+:::::::::::::::::::::::
