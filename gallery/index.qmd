@@ -9,8 +9,60 @@ format:
     toc: true
 ---
 
+# October 2024
+::::::::::: columns
+::: {.column width="30%"}
+![Irresistible...](../img/202410-01.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![007.](../img/202410-02.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Primrose Hill](../img/202410-03.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Chicken Xiao Long Bao!](../img/202410-04.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Super Full Moon I.](../img/202410-05.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![What a lovely sunset!](../img/202410-06.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Super Full Moon II.](../img/202410-07.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![St Paul's Cathedral.](../img/202410-08.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Thank God I'm here.](../img/202410-09.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Eve Cafe.](../img/202410-10.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Home.](../img/202410-11.jpeg){group="2024-10"}
+:::
+
+::: {.column width="30%"}
+![Daunt Books Marylebone](../img/202410-12.jpeg){group="2024-10"}
+:::
+:::::::::::
+
 # September 2024
-::::::::::::: columns
+
+::::::::::: columns
 ::: {.column width="30%"}
 ![Being a petsitter :) - an unforgettable experience!](../img/202409-01.jpeg){group="2024-09"}
 :::
@@ -42,9 +94,7 @@ format:
 ::: {.column width="30%"}
 ![Reminds me of a cover from the book The Body Keeps The Score.](../img/202409-08.jpeg){group="2024-09"}
 :::
-:::::::::::::
-
-
+:::::::::::
 
 # August 2024
 
