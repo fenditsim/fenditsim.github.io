@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Fendi Tsim">
-<meta name="dcterms.date" content="2024-06-15">
 
-<title>Creating a personal website with Quarto – Fendi Tsim</title>
+<title>Portfolio – Fendi Tsim</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,56 +20,24 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../../img/logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../img/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -87,20 +53,78 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Fendi Tsim</span>
     </a>
   </div>
@@ -110,19 +134,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../resume/index.html"> 
+    <a class="nav-link" href="../resume/index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link active" href="../portfolio/index.html" aria-current="page"> 
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../writings/index.html"> 
+    <a class="nav-link" href="../writings/index.html"> 
 <span class="menu-text">Writings</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../gallery/index.html"> 
+    <a class="nav-link" href="../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
 </ul>
@@ -136,50 +160,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-quarto" id="toc-what-is-quarto" class="nav-link active" data-scroll-target="#what-is-quarto">What is Quarto?</a></li>
-  <li><a href="#why-quarto" id="toc-why-quarto" class="nav-link" data-scroll-target="#why-quarto">Why Quarto?</a></li>
-  <li><a href="#what-do-we-need" id="toc-what-do-we-need" class="nav-link" data-scroll-target="#what-do-we-need">What do we need?</a></li>
-  <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips">Tips</a>
-  <ul class="collapse">
-  <li><a href="#render-on-save" id="toc-render-on-save" class="nav-link" data-scroll-target="#render-on-save">Render on Save</a></li>
-  <li><a href="#install-quarto-on-your-device" id="toc-install-quarto-on-your-device" class="nav-link" data-scroll-target="#install-quarto-on-your-device">Install Quarto on your device</a></li>
-  <li><a href="#creating-multiple-pages" id="toc-creating-multiple-pages" class="nav-link" data-scroll-target="#creating-multiple-pages">Creating multiple pages</a></li>
-  <li><a href="#uploading-your-site-on-github" id="toc-uploading-your-site-on-github" class="nav-link" data-scroll-target="#uploading-your-site-on-github">Uploading your site on Github</a></li>
-  </ul></li>
-  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next?</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Creating a personal website with Quarto</h1>
+<h1 class="title">What I’ve been working on</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Fendi Tsim </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 15, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -189,93 +183,185 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Having a personal website is ubiquitous and essential these days for professional use. In this project, I am going to share my experience with, creating a personal website with <a href="https://quarto.org/">Quarto</a> and R.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/creating-a-personal-website-with-quarto.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1730592000000" data-listing-file-modified-sort="1730620713615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
+<div class="thumbnail">
+<p><a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external"></a></p><a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external">
+<p class="card-img-top"><img src="../img/building-a-personal-spending-dashboard-with-shiny.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external"></a></p>
 </div>
-<p>This project is suitable for beginners who have a little, no prior experience. A few criteria must be met for a beginner to create a personal website:</p>
-<ul>
-<li><p>Easy to program: markdown preferably</p></li>
-<li><p>Easily accessible when programming it</p></li>
-<li><p>Having a few templates to play around with, with the possibility to expand with other programming language for designing website such as html, css and js</p></li>
-</ul>
-<section id="what-is-quarto" class="level1">
-<h1>What is Quarto?</h1>
-<p>To begin with, it is better for me to give you a brief introduction of what Quarto is. Essentially, it is an open-source software for creating website, document (including LaTeX) as well as presentation slides. Quarto supports multiple programming languages such as Python, R, Julia and Observable JS. In this project we use Quarto with R, as it is pre-installed inside RStudio!</p>
-</section>
-<section id="why-quarto" class="level1">
-<h1>Why Quarto?</h1>
-<p>Additionally, my general impression with Quarto is easy to learn for beginners! It’s based on rmarkdown - so we might not need to know html and css before publishing a website at all!</p>
-</section>
-<section id="what-do-we-need" class="level1">
-<h1>What do we need?</h1>
-<p>To start with, we need the following:</p>
-<ul>
-<li><a href="https://www.r-project.org">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> installed</li>
-</ul>
-<p>Working inside R’s environment is super-convenient! For instance, we can store every bit of the website inside a R’s project, which can be stored in a cloud.</p>
-<p>In fact, we simply take the advantage of R and RStudio, rather than coding with R. Quarto is pre-installed inside RStudio, so we do not need to install it from an official website (which, of course, you can do <a href="https://quarto.org/docs/download/">so</a> if you want)</p>
-<ul>
-<li><a href="https://github.com">Github</a> account created and Git installed</li>
-</ul>
-<p>After creating a personal website with Quarto, we need a server, or a place to deploy it! Github is, in my opinion, an excellent option for deploying a website. First, it is easy to deploy a site. Secondly, we can upload our code there, and access it anywhere we want, as long as we have the internet! Third, we can deploy as many websites as we want <strong>for free</strong> - this is tempting!</p>
-<p>Here I do not provide how to create a website with Quarto - Quarto itself has a fantastic and user-friendly <a href="https://quarto.org/docs/websites/">documentation</a> to follow!</p>
-</section>
-<section id="tips" class="level1">
-<h1>Tips</h1>
-<section id="render-on-save" class="level2">
-<h2 class="anchored" data-anchor-id="render-on-save">Render on Save</h2>
-<p>On your <code>index.qmd</code> document tab, there is a checkbox called ‘Render on Save’ - tick it and the website will be rendered whenever you save your current progress!</p>
-</section>
-<section id="install-quarto-on-your-device" class="level2">
-<h2 class="anchored" data-anchor-id="install-quarto-on-your-device">Install Quarto on your device</h2>
-<p>This simplifies our experience when we try to render, preview and publish our website. If we want to render our current progress, we can run the following command in terminal (next to Console tab in RStudio):</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Once our website is rendered, we can preview it with our default browser by running the command in terminal:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Apart from rendering and previewing our website, we can publish it via Terminal (see below)!</p>
-</section>
-<section id="creating-multiple-pages" class="level2">
-<h2 class="anchored" data-anchor-id="creating-multiple-pages">Creating multiple pages</h2>
-<p>Of course, we would like to have multiple pages for showcasing different contents, rather than a single page about ourselves in our website! Creating another page within our website by simply adding another quarto document is basic. Yet, this creates a problem in the website address. For example, we create an About page with a quarto document <code>about.qmd</code>. After we click that page in our website, the website address ends with ‘about.html’.</p>
-<p>I was inspired by this lovely <a href="https://beamilz.com/">website</a> built with Quarto for resolving this issue, we can create a folder called ‘About’, and rename that quarto document from <code>about.qmd</code> to <code>index.qmd</code> (Remember to update the relevant href link inside <code>_quarto.yml</code>, such as <code>about/index.qmd</code>!). The new website address ends with <code>/about/</code> - looks prettier and more advanced!</p>
-</section>
-<section id="uploading-your-site-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="uploading-your-site-on-github">Uploading your site on Github</h2>
-<p>After creating a personal website with Quarto, we need a server, or a place to deploy it! First, we open Terminal tab inside RStudio. We run the following command to check if RStudio connects to our Github repository properly:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote show origin</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>If the link shown does not match with our Github repository’s, we can remove it with the following command:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote remove origin</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Then we add our Github repository’s link, and run the previous command again for a second check.</p>
-<p>For uploading the website, I’d recommend taking the <code>quarto publish</code> approach. Follow steps on <a href="https://quarto.org/docs/publishing/github-pages.html#publish-command">this site</a> if you have not created a <code>gh-pages</code> branch in your Github repository.</p>
-<p>You might want to update your personal website with new content occasionally. First, make sure you are going to make changes of your website in <code>main</code> branch (it should be the name of your default branch) by running the following command in Terminal:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Upload all your recent changes of your website in R.proj into your github repository (main branch). This ensures your Github repository is up-to-date, and thus you can pick it up with another machine if needed.</p>
-<p>Next, in the Terminal tab (which is next to Console tab), type the following command to update your website:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>R then asks if you’d like to update your personal website, and type ‘Y’. It then automatically ‘publish’ the latest version of your page.</p>
-<p>It’s alright if you ignore the first step and do the second step only. However, only ‘gh-pages’ branch is then up-to-date (with an automatic committed message like ‘Built site for gh-pages’) - it would be better to make sure your <code>main</code> branch is also up-to-date, too!</p>
-</section>
-</section>
-<section id="whats-next" class="level1">
-<h1>What’s next?</h1>
-<p>Congratulations! You’ve created your personal website with Quarto! A few here and there you can customize in your website, such as:</p>
-<ul>
-<li><p>Adding <a href="https://quarto.org/docs/websites/website-tools.html#favicon">a favicon</a></p></li>
-<li><p>Changing foreground and background color for the navigation bar and body</p></li>
-<li><p>Adding <a href="https://quarto.org/docs/websites/website-tools.html#favicon">a page footer</a></p></li>
-<li><p>Modifying <a href="https://quarto.org/docs/reference/formats/html.html#format-options">html format options</a></p></li>
-<li><p>Modifying your resume with Quarto’s built-in <a href="https://quarto.org/docs/websites/website-about.html#templates">templates</a></p></li>
-<li><p>Creating <a href="https://quarto.org/docs/websites/website-blog.html#quick-start">a blog</a> within your website!</p></li>
-</ul>
-<p>Have fun creating your website!</p>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external">Building a personal spending dashboard with Shiny</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external">In this post, I present a personal spending dashboard (link) that helps visualize and analyse monthly spending. This Shiny app is for illustration purpose only.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio/building-a-personal-spending-dashboard-with-shiny/index.html" class="no-external">
+<div class="listing-date">
+Nov 3, 2024
+</div>
+<div class="listing-author">
+Fendi Tsim
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1722466800000" data-listing-file-modified-sort="1730619169237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="816">
+<div class="thumbnail">
+<p><a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external"></a></p><a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external">
+<p class="card-img-top"><img src="../img/building-a-bus-timetable-app-with-shiny.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external">Building a bus timetable app with Shiny</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external">In this post, I present a bus timetable app (link) for students at the University of Warwick made with Shiny. This Shiny app is for illustration purpose only.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio/building-a-bus-timetable-app-with-shiny/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2024
+</div>
+<div class="listing-author">
+Fendi Tsim
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1718406000000" data-listing-file-modified-sort="1718449260434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="969">
+<div class="thumbnail">
+<p><a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external"></a></p><a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external">
+<p class="card-img-top"><img src="../img/creating-a-personal-website-with-quarto.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external">Creating a personal website with Quarto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external">Having a personal website is ubiquitous and essential these days for professional use. In this project, I am going to share my experience with, creating a personal website…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio/creating-a-personal-website-with-quarto/index.html" class="no-external">
+<div class="listing-date">
+Jun 15, 2024
+</div>
+<div class="listing-author">
+Fendi Tsim
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1715814000000" data-listing-file-modified-sort="1718449146886" data-listing-date-modified-sort="1718319600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
+<div class="thumbnail">
+<p><a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external"></a></p><a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external">
+<p class="card-img-top"><img src="../img/tips-on-working-with-r-environment.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external">Tips on Working with R’s environment</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external">After working extensively with R in the past few years, I have a few tips that can improve user’s experience while searching within R’s environment (see below).</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio/tips-on-working-with-r-environment/index.html" class="no-external">
+<div class="listing-date">
+May 16, 2024
+</div>
+<div class="listing-author">
+Fendi Tsim
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1689289200000" data-listing-file-modified-sort="1718138152115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="378">
+<div class="thumbnail">
+<p><a href="../portfolio/FxCAs/index.html" class="no-external"></a></p><a href="../portfolio/FxCAs/index.html" class="no-external">
+<p class="card-img-top"><img src="../img/FxCAs.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../portfolio/FxCAs/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio/FxCAs/index.html" class="no-external">Functions, Cleaning, Analysis and Sharing (FxCAs)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio/FxCAs/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio/FxCAs/index.html" class="no-external">In this post, I present a multiple-script-interconnected, minimalistic framework that facilitates data cleaning and analysis in R. This framework (which I called ‘Functions…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio/FxCAs/index.html" class="no-external">
+<div class="listing-date">
+Jul 14, 2023
+</div>
+<div class="listing-author">
+Fendi Tsim
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1679958000000" data-listing-file-modified-sort="1718138152115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="669">
+<div class="thumbnail">
+<p><a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external"></a></p><a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external">
+<p class="card-img-top"><img src="../img/multiple-linear-regression-table-with-stargazer.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external">Building A Table of Multiple Linear Regression Models with Stargazer</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external">In this post, I present a method to combine results of multiple linear regression models in a latex regression table with stargazer (R package).</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html" class="no-external">
+<div class="listing-date">
+Mar 28, 2023
+</div>
+<div class="listing-author">
+Fendi Tsim
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -714,5 +800,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

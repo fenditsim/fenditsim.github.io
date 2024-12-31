@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fenditsim.github.io/index.html</loc>
-    <lastmod>2024-11-01T18:38:42.931Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fenditsim.github.io/projects/creating-a-personal-website-with-quarto/index.html</loc>
+    <loc>https://fenditsim.github.io/portfolio/creating-a-personal-website-with-quarto/index.html</loc>
     <lastmod>2024-06-15T11:01:00.434Z</lastmod>
   </url>
   <url>
-    <loc>https://fenditsim.github.io/projects/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html</loc>
+    <loc>https://fenditsim.github.io/portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html</loc>
     <lastmod>2024-06-11T20:35:52.115Z</lastmod>
   </url>
   <url>
-    <loc>https://fenditsim.github.io/projects/index.html</loc>
-    <lastmod>2024-06-15T10:59:06.885Z</lastmod>
+    <loc>https://fenditsim.github.io/portfolio/index.html</loc>
+    <lastmod>2024-12-31T10:25:34.926Z</lastmod>
   </url>
   <url>
-    <loc>https://fenditsim.github.io/projects/building-a-bus-timetable-app-with-shiny/index.html</loc>
+    <loc>https://fenditsim.github.io/portfolio/building-a-bus-timetable-app-with-shiny/index.html</loc>
     <lastmod>2024-11-03T07:32:49.237Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fenditsim.github.io/resume/index.html</loc>
+    <lastmod>2024-12-31T10:14:48.535Z</lastmod>
   </url>
   <url>
     <loc>https://fenditsim.github.io/writings/word-and-its-meaning/index.html</loc>
@@ -57,19 +57,19 @@
     <lastmod>2024-11-01T18:28:01.391Z</lastmod>
   </url>
   <url>
-    <loc>https://fenditsim.github.io/projects/building-a-personal-spending-dashboard-with-shiny/index.html</loc>
+    <loc>https://fenditsim.github.io/index.html</loc>
+    <lastmod>2024-11-01T18:38:42.931Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fenditsim.github.io/portfolio/building-a-personal-spending-dashboard-with-shiny/index.html</loc>
     <lastmod>2024-11-03T07:58:33.615Z</lastmod>
   </url>
   <url>
-    <loc>https://fenditsim.github.io/projects/FxCAs/index.html</loc>
+    <loc>https://fenditsim.github.io/portfolio/FxCAs/index.html</loc>
     <lastmod>2024-06-11T20:35:52.115Z</lastmod>
   </url>
   <url>
-    <loc>https://fenditsim.github.io/projects/tips-on-working-with-r-environment/index.html</loc>
+    <loc>https://fenditsim.github.io/portfolio/tips-on-working-with-r-environment/index.html</loc>
     <lastmod>2024-06-15T10:59:06.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fenditsim.github.io/resume/index.html</loc>
-    <lastmod>2024-12-31T10:14:48.535Z</lastmod>
   </url>
 </urlset>

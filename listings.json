@@ -1,13 +1,13 @@
 [
   {
-    "listing": "/projects/index.html",
+    "listing": "/portfolio/index.html",
     "items": [
-      "/projects/building-a-personal-spending-dashboard-with-shiny/index.html",
-      "/projects/building-a-bus-timetable-app-with-shiny/index.html",
-      "/projects/creating-a-personal-website-with-quarto/index.html",
-      "/projects/tips-on-working-with-r-environment/index.html",
-      "/projects/FxCAs/index.html",
-      "/projects/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html"
+      "/portfolio/building-a-personal-spending-dashboard-with-shiny/index.html",
+      "/portfolio/building-a-bus-timetable-app-with-shiny/index.html",
+      "/portfolio/creating-a-personal-website-with-quarto/index.html",
+      "/portfolio/tips-on-working-with-r-environment/index.html",
+      "/portfolio/FxCAs/index.html",
+      "/portfolio/building-a-table-of-multiple-linear-regression-models-with-stargazer/index.html"
     ]
   },
   {

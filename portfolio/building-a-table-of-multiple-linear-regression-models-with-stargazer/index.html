@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Fendi Tsim">
-<meta name="dcterms.date" content="2024-08-01">
+<meta name="dcterms.date" content="2023-03-28">
 
-<title>Building a bus timetable app with Shiny – Fendi Tsim</title>
+<title>Building A Table of Multiple Linear Regression Models with Stargazer – Fendi Tsim</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -80,8 +114,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../portfolio/index.html"> 
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../writings/index.html"> 
@@ -107,9 +141,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">Load packages</a></li>
+  <li><a href="#function" id="toc-function" class="nav-link" data-scroll-target="#function">Function</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  </ul></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -118,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Building a bus timetable app with Shiny</h1>
+<h1 class="title">Building A Table of Multiple Linear Regression Models with Stargazer</h1>
 </div>
 
 
@@ -135,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2024</p>
+      <p class="date">March 28, 2023</p>
     </div>
   </div>
   
@@ -149,49 +187,328 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>In this post, I present a bus timetable app (<a href="https://fenditsim.shinyapps.io/shiny-bus-timetable/">link</a>) for students at the University of Warwick made with Shiny. This Shiny app is for illustration purpose only.</p>
+<p>In this post, I present a method to combine results of multiple linear regression models in a latex regression table with stargazer (R package).</p>
+<p>The aim is to simplify regressions generation processes with a user-defined set of Independent Variables (IVs) for each regression model, and show all results in a regression table with stargazer. This is very helpful when adding (or removing) new IVs in current regression model gradually.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../img/building-a-bus-timetable-app-with-shiny.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="../../img/multiple-linear-regression-table-with-stargazer.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<p>I extract daily timetable data (which are downloadable) from <a href="https://nxbus.co.uk/coventry/services-timetables">NX Bus Coventry</a>.</p>
-<p>Note that this bus timetable app does not produce real-time information; it basically illustrate all timeslots in a timetable provided.</p>
-<p>This bus timetable app only shows timeslots for buses under NX Bus Coventry. It is possible to shows buses from Stagecoach in future updates (if relevant timetable are downloadable publicly).</p>
+<section id="load-packages" class="level3">
+<h3 class="anchored" data-anchor-id="load-packages">Load packages</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(stargazer)  <span class="co"># Load stargazer </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: stargazer</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Please cite as: </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> R package version 5.2.3. https://CRAN.R-project.org/package=stargazer </code></pre>
+</div>
+</div>
 </section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features</h2>
-<p>This bus timetable app has two inputs:</p>
+<section id="function" class="level3">
+<h3 class="anchored" data-anchor-id="function">Function</h3>
+<p>I created a function called <code>Regress</code> for combining results of all regression models into a single table:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>Regress <span class="ot">&lt;-</span> <span class="cf">function</span>(data, DV, eq.IVs, OutcomeLabel){</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  equations <span class="ot">&lt;-</span> <span class="fu">paste0</span>(DV, <span class="st">" ~ "</span>, eq.IVs) <span class="co"># Create equations </span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  RegResults <span class="ot">&lt;-</span> <span class="fu">list</span>()  <span class="co"># Create an empty list that stores all regression results</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  LogLike <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Log Likelihood"</span>)  <span class="co"># Storing log-likelihood of all regression results</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(equations)){</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    reg <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="at">formula =</span> equations[i], <span class="at">data =</span> data)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    reg<span class="sc">$</span>AIC <span class="ot">&lt;-</span> <span class="fu">AIC</span>(reg) <span class="co"># Include Akaike Inf. Crit.</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    reg<span class="sc">$</span>BIC <span class="ot">&lt;-</span> <span class="fu">BIC</span>(reg) <span class="co"># Include Bayesian Inf. Crit.</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    RegResults[[<span class="fu">paste0</span>(OutcomeLabel, <span class="st">"_"</span>, <span class="fu">ifelse</span>(i<span class="sc">&lt;</span><span class="dv">10</span>, <span class="fu">paste0</span>(<span class="dv">0</span>, i), i))]] <span class="ot">&lt;-</span> reg</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    LogLike <span class="ot">&lt;-</span> <span class="fu">append</span>(<span class="at">x =</span> LogLike, <span class="at">values =</span> <span class="fu">round</span>(<span class="fu">logLik</span>(reg),<span class="dv">2</span>))</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Export RegResults as doc </span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">stargazer</span>(RegResults, </span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">type =</span> <span class="st">'html'</span>, </span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>            <span class="at">out =</span> <span class="fu">paste0</span>(<span class="st">"Regression_Results_"</span>, OutcomeLabel, <span class="st">".doc"</span>), <span class="at">add.lines =</span> <span class="fu">list</span>(LogLike))</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>         )</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This function <code>Regress</code> contains multiple inputs:</p>
 <ul>
-<li><strong>From</strong>: the starting point</li>
-<li><strong>To</strong>: the destination</li>
+<li><p><code>data</code> for the set of data used in multiple linear regression models</p></li>
+<li><p><code>DV</code> refers to dependent variable of multiple linear regression models</p></li>
+<li><p><code>eq.IVs</code> refers to set of IVs in each multiple linear regression model</p></li>
+<li><p><code>OutcomeLabel</code> refers to the document name of the outcome (user-defined)</p></li>
 </ul>
-<p>The default option for each of these two inputs are ‘Pool Meadow Bus Station’ and ‘University of Warwick Bus Interchange’ respectively.</p>
-<p>User can select different starting point (e.g., Coventry Rail Station) with the same destination (‘University of Warwick Bus Interchange’), or different destinations with the same starting point (‘University of Warwick Bus Interchange’).</p>
-<p>Under these two inputs there are four rows; each row represent a bus and its arrival time, indicated with a color box.</p>
-<p>If a bus is available, its corresponding color box shows two lines. The first lines shows how many minutes left before it starts from the starting point, while the second line shows its time. User can click into the color box to see the last and upcoming bus arrival times (in terms of time and minutes).</p>
-<p>There are four possible colors in a color box:</p>
-<ul>
-<li><p><strong>red</strong>: less than 5 minutes</p></li>
-<li><p><strong>yellow</strong>: between 5 and 10 minutes</p></li>
-<li><p><strong>green</strong>: more than 10 minutes</p></li>
-<li><p><strong>purple</strong>: No information available (shown as NA; ‘Not Applicable’)</p></li>
-</ul>
+<p>Note that this function also includes model results of Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC) and Log likelihood (LogLike) for models comparison.</p>
+<p>This function returns with the regression table results in word document format.</p>
 </section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>This project is one of the projects I started paying more attention to recently.</p>
-<p>It started off during a bus strike in Coventry in March 2023. At that time I was very confused about bus arrivals as Apple Maps, Google Maps and the one inside MyWarwick app did not show real-time information whenever buses worked.</p>
-<p>I then went on official sites and found some useful information. Yet, it is not mobile-browser-friendly as table of the timetable did not adjust to a mobile browser size. Also, it could be frustrating to scroll through the table, when what I really wanted to know from it is when the upcoming bus arrival would be!</p>
-<p>I had an idea of building a bus timetable app with Shiny during Christmas last year. I could not pay a lot of attention due to major issues in my professional and personal lives.</p>
-<p>Recently I picked up from where I left of eight months ago, and started working it extensively. I encountered a number of challenges both in front-end (such as the layout and design) and back-end (how to match with the current time) etc. As for the front-end, I took the traffic light approach - it’s straightforward, and commonly known among us - red is ‘danger’, yellow is ‘mild’ and green is ‘alright’. As for the back-end, it is, in fact, fascinating to learn how to deploy a shiny app that automatically refreshes after a certain time, how to update one input conditionally on another input etc.</p>
-<p>Despite all the challenges I encountered while coding it, I am truly grateful it works the way I envisioned a year ago!</p>
-<p>Most importantly, I hope it ultimately benefits UoW students who commute daily by buses. After staying here for more than six years, I truly understand the frustration when asking ‘when the bus will be here soon?!’.</p>
-<p>It reminds me of one time I was waiting for 12x (an express bus between university and city centre) with a group of my friends at night in January (very cold!). One of my friends asked if we should wait for 12x though there was 11 (a bus with way more stops than 12x).</p>
-<p>We started to view it as a decision-making problem - ‘a bet’ between a certain option with 11 (albeit taking more time) or an uncertain option with 12x (who knows when exactly it would arrive at night?).</p>
-<p>I do not remember which option we chose anyway. At that time, of course, it would be way better if we did have an app that shows bus arrival!</p>
-<p>MyWarwick app has a feature of showing bus arrivals time, but it seems to restrict on showing arrivals in some stops. Other alternatives such as Apple Maps and Google Maps work well. Recently I noticed that we can use CityMapper for checking bus arrival - an app I would recommend using as it works in other big cities in UK such as London (can’t live without it as it shows how much a trip would cost for alternatives), Birmingham and Manchester.</p>
-<p>In the end, I am glad that I’ve made this app the way I envisioned! This bus timetable app is similar to a group of people back home creating a mobile app that shows real-time bus arrival. Honestly, theirs is way more advanced than mine!</p>
+<section id="example" class="level3">
+<h3 class="anchored" data-anchor-id="example">Example</h3>
+<p>Here <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/npk.html">npk</a> (R Datasets) is used for illustration. Three regressions are generated using <code>lm()</code>, with <code>yield</code> as dependent variable, as well as <code>block</code> and <code>N</code> as independent variables.</p>
+<p>First we import the dataset:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>npk <span class="ot">&lt;-</span> datasets<span class="sc">::</span>npk <span class="co"># Using R Datasets (Classical N, P, K Factorial Experiment)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>We then define the dependent variable, which is <code>yield</code> in this case:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>DV <span class="ot">=</span> <span class="st">'yield'</span>  <span class="co"># Set dependent variable</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Next, we define the set of IVs in each regression model. The first equation has <code>block</code> as IV. The second one has <code>N</code>. The last one has both as IVs:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of equations with independent variables</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Here 1st equation is block, 2nd with N, 3rd with block and N</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>eq.IVs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"block"</span>,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>            <span class="st">'N'</span>,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">'block + N'</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Then we generate the regression table with the function <code>Regress</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>RegressionTable <span class="ot">&lt;-</span> <span class="fu">Regress</span>(<span class="at">data =</span> npk, <span class="at">DV =</span> DV, <span class="at">eq.IVs =</span> eq.IVs, <span class="at">OutcomeLabel =</span> <span class="st">"NPK"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>The result looks like this (here I use <code>htmltools</code> package for showing the result, but it is saved as a .doc file in the current working directory once the function is executed):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>htmltools<span class="sc">::</span><span class="fu">knit_print.html</span>(RegressionTable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td colspan="4" style="border-bottom: 1px solid black"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td colspan="3"><em>Dependent variable:</em></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td colspan="3" style="border-bottom: 1px solid black"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td colspan="3">equations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td>(1)</td>
+<td>(2)</td>
+<td>(3)</td>
+</tr>
+<tr class="even">
+<td colspan="4" style="border-bottom: 1px solid black"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">block2</td>
+<td>3.425</td>
+<td></td>
+<td>3.425</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td>(3.848)</td>
+<td></td>
+<td>(3.180)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">block3</td>
+<td>6.750<sup>*</sup></td>
+<td></td>
+<td>6.750<sup>**</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td>(3.848)</td>
+<td></td>
+<td>(3.180)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">block4</td>
+<td>-3.900</td>
+<td></td>
+<td>-3.900</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td>(3.848)</td>
+<td></td>
+<td>(3.180)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">block5</td>
+<td>-3.500</td>
+<td></td>
+<td>-3.500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td>(3.848)</td>
+<td></td>
+<td>(3.180)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">block6</td>
+<td>2.325</td>
+<td></td>
+<td>2.325</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td>(3.848)</td>
+<td></td>
+<td>(3.180)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">N1</td>
+<td></td>
+<td>5.617<sup>**</sup></td>
+<td>5.617<sup>***</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td></td>
+<td>(2.281)</td>
+<td>(1.836)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Constant</td>
+<td>54.025<sup>***</sup></td>
+<td>52.067<sup>***</sup></td>
+<td>51.217<sup>***</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td>(2.721)</td>
+<td>(1.613)</td>
+<td>(2.429)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td colspan="4" style="border-bottom: 1px solid black"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Log Likelihood</td>
+<td>-71.26</td>
+<td>-74.31</td>
+<td>-66</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Observations</td>
+<td>24</td>
+<td>24</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">R<sup>2</sup></td>
+<td>0.392</td>
+<td>0.216</td>
+<td>0.608</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Adjusted R<sup>2</sup></td>
+<td>0.223</td>
+<td>0.180</td>
+<td>0.469</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Akaike Inf. Crit.</td>
+<td>156.523</td>
+<td>154.615</td>
+<td>147.996</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bayesian Inf. Crit.</td>
+<td>164.770</td>
+<td>158.149</td>
+<td>157.421</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Residual Std. Error</td>
+<td>5.442 (df = 18)</td>
+<td>5.588 (df = 22)</td>
+<td>4.497 (df = 17)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F Statistic</td>
+<td>2.318<sup>*</sup> (df = 5; 18)</td>
+<td>6.061<sup>**</sup> (df = 1; 22)</td>
+<td>4.389<sup>***</sup> (df = 6; 17)</td>
+</tr>
+<tr class="odd">
+<td colspan="4" style="border-bottom: 1px solid black"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Note:</em></td>
+<td colspan="3" style="text-align: right;"><sup>*</sup>p&lt;0.1; <sup>**</sup>p&lt;0.05; <sup>***</sup>p&lt;0.01</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The complete code is shown as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>npk <span class="ot">&lt;-</span> datasets<span class="sc">::</span>npk <span class="co"># Using R Datasets (Classical N, P, K Factorial Experiment)</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>DV <span class="ot">=</span> <span class="st">'yield'</span>  <span class="co"># Set dependent variable</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of equations with independent variables</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Here 1st equation is block, 2nd with N, 3rd with block and N</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>eq.IVs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"block"</span>,</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">'N'</span>,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">'block + N'</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>RegressionTable <span class="ot">&lt;-</span> <span class="fu">Regress</span>(<span class="at">data =</span> npk, <span class="at">DV =</span> DV, <span class="at">eq.IVs =</span> eq.IVs, <span class="at">OutcomeLabel =</span> <span class="st">"NPK"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables. R package version 5.2.3. <a href="https://CRAN.R-project.org/package=stargazer" class="uri">https://CRAN.R-project.org/package=stargazer</a></p>
 
 
 </section>
