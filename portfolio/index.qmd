@@ -1,5 +1,5 @@
 ---
-pagetitle: "Projects"
+pagetitle: "Portfolio"
 title: "What I've been working on"
 listing:
   sort: "date desc"
