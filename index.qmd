@@ -17,6 +17,9 @@ about:
     - icon: person vcard
       text: ORCID
       href: https://orcid.org/0000-0002-3556-4602    
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/fenditsim/
 ---
 
 ::: justify
@@ -24,5 +27,5 @@ Welcome to my personal website!
 
 My name is Fendi, and I am a Doctoral Researcher at Warwick Business School, University of Warwick. I work in the field of behavioural and economic science.
 
-During my spare time I like to spend time with my family and friends, going outdoors, watching movies and anime (big fan!), [taking pictures](gallery/index.qmd), going to gym and reading books (currently aiming to read 52 books [this year](https://www.goodreads.com/user_challenges/46721122) - I read 68 books [last year](https://www.goodreads.com/user_challenges/45178311)!)
+During my spare time I like to spend time with my family and friends, going outdoors, watching movies and anime (big fan!), [taking pictures](gallery/index.qmd), going to gym and reading books (currently aiming to read 52 books [this year](https://www.goodreads.com/review/list/164798015-fendi?read_at=2025) - I read 84 books [in 2024](https://www.goodreads.com/user_challenges/46721122) and 68 books [in 2023](https://www.goodreads.com/user_challenges/45178311)!)
 :::
