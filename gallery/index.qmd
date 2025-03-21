@@ -9,8 +9,49 @@ format:
     toc: true
 ---
 
+# November 2024
+
+::::::::::::::: columns
+::: {.column width="30%"}
+![One of the gorgeous libraries at KCL.](../img/202411-01.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![Rare to see such lovely weather in London!](../img/202411-02.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![Night at UCL.](../img/202411-03.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![Hotpot!](../img/202411-04.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![Attending a discussion about AI and reproducibility at LSE.](../img/202411-05.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![In love with Turkish cuisine!](../img/202411-06.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![Attending a seminar about Behavioural Finance at LSE.](../img/202411-07.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![Back on campus :)](../img/202411-08.jpeg){group="2024-11"}
+:::
+
+::: {.column width="30%"}
+![First time trying Morroccan cuisine - thanks Eve!](../img/202411-09.jpeg){group="2024-11"}
+:::
+:::::::::::::::
+
 # October 2024
-::::::::::: columns
+
+::::::::::::::: columns
 ::: {.column width="30%"}
 ![Irresistible...](../img/202410-01.jpeg){group="2024-10"}
 :::
@@ -58,7 +99,7 @@ format:
 ::: {.column width="30%"}
 ![Daunt Books Marylebone](../img/202410-12.jpeg){group="2024-10"}
 :::
-:::::::::::
+:::::::::::::::
 
 # September 2024
 
