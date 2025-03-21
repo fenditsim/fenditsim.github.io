@@ -9,6 +9,38 @@ format:
     toc: true
 ---
 
+# February 2025
+
+::::::::::::::: columns
+::: {.column width="30%"}
+![Ramen!](../img/202502-01.jpeg){group="2025-02"}
+:::
+
+::: {.column width="30%"}
+![What a view at Kwun Tong, Hong Kong!](../img/202502-02.jpeg){group="2025-02"}
+:::
+
+::: {.column width="30%"}
+![Heading back home for a vacation.](../img/202502-03.jpeg){group="2025-02"}
+:::
+
+::: {.column width="30%"}
+![One of my favourite bakeries in Central London (closed now).](../img/202502-04.jpeg){group="2025-02"}
+:::
+
+::: {.column width="30%"}
+![One of my favourite books I've read in this month.](../img/202502-05.jpeg){group="2025-02"}
+:::
+
+::: {.column width="30%"}
+![Watchhouse in Covent Garden.](../img/202502-06.jpeg){group="2025-02"}
+:::
+
+::: {.column width="30%"}
+![Attending the Tech Exhibition!](../img/202502-07.jpeg){group="2025-02"}
+:::
+:::::::::::::::
+
 # January 2025
 
 ::::::::::::::: columns
