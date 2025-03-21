@@ -9,6 +9,34 @@ format:
     toc: true
 ---
 
+# December 2024
+
+::::::::::::::: columns
+::: {.column width="30%"}
+![In love with Tapas.](../img/202412-01.jpeg){group="2024-12"}
+:::
+
+::: {.column width="30%"}
+![It is what I needed to hear - thanks!](../img/202412-02.jpeg){group="2024-12"}
+:::
+
+::: {.column width="30%"}
+![First time attending a conference - thanks Craig for the opportunity!](../img/202412-03.jpeg){group="2024-12"}
+:::
+
+::: {.column width="30%"}
+![Treasure hunting in a charity shop.](../img/202412-04.jpeg){group="2024-12"}
+:::
+
+::: {.column width="30%"}
+![One of my favourite books I've read in 2024.](../img/202412-05.jpeg){group="2024-12"}
+:::
+
+::: {.column width="30%"}
+![Glad that I met you before the end of 2024!](../img/202412-06.jpeg){group="2024-12"}
+:::
+:::::::::::::::
+
 # November 2024
 
 ::::::::::::::: columns
