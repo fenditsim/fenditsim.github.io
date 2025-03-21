@@ -9,6 +9,26 @@ format:
     toc: true
 ---
 
+# January 2025
+
+::::::::::::::: columns
+::: {.column width="30%"}
+![Having a bowl of ramen under a rainy weather - perfect!](../img/202501-01.jpeg){group="2025-01"}
+:::
+
+::: {.column width="30%"}
+![What an experience to work at Cowry!](../img/202501-02.jpeg){group="2025-01"}
+:::
+
+::: {.column width="30%"}
+![Attending Experimentation Meetup.](../img/202501-03.jpeg){group="2025-01"}
+:::
+
+::: {.column width="30%"}
+![One of my favourite books I've read in this month.](../img/202501-04.jpeg){group="2025-01"}
+:::
+:::::::::::::::
+
 # December 2024
 
 ::::::::::::::: columns
