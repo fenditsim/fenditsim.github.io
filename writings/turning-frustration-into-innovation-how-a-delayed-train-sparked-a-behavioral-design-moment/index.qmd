@@ -1,0 +1,218 @@
+---
+title: "Turning Frustration into Innovation: How a Delayed Train Sparked a Behavioral Design Moment"
+author: "Fendi Tsim"
+date: "2025-04-06"
+---
+::: justify
+Have you ever noticed how some of our most creative moments emerge from situations that initially frustrate us? Yesterday provided me with exactly such an experience.
+
+### When Plans Go Awry
+
+I was making a day trip back to Coventry to visit one of my former professors from Warwick Business School and catch up with old friends. Everything was meticulously planned - until I arrived at Euston train station, and discovered my train would be delayed by 16 minutes.
+
+My first reaction? The typical frustration we all feel when our carefully arranged schedules are disrupted! Standing there watching the minutes tick by on the departure board, I felt, like my fellow travelers, that familiar sense of powerlessness and frustration.
+
+### The Shift in Perspective
+
+But then *something* clicked. Instead of reading a book "It didn't start with you" by Mark Wolynn in a noisy crowd with passengers hitting each other while passing by, I realized this was actually an opportunity. After all, I've been thinking about behavioral interventions for common psychological friction points in daily life - and, of course, what's more universal than the experience of delayed public transport?
+
+### SCORE Framework in Action
+
+Some of you may remember the SCORE framework I shared in a previous [post](../../portfolio/score-prompt-framework-for-chatgpt-4o/index.qmd) - a structured approach to identifying and solving behavioral challenges.
+
+Facing this 16-minute window, I decided to put it into practice in real-time.
+
+I pulled out my phone, and opened ChatGPT 4o with a brief prompt based on the framework. Below is the refined version of my prompt, with bold texts showing how the SCORE framework is applied:
+
+“**Set the stage**
+
+I am a Behavioural Science Researcher that conducts research for a behavioural intervention campaign on improving delayed train situation in the UK. Here are some of details I noticed while waiting for a train at Euston station on a typical Saturday morning:
+
+-   15 minutes before the train's original departure time, the billboard showed that the train will get delayed for 16 minutes. It seems to be a common phenomenon in the journey between London Euston and Birmingham New Street station.
+
+-   passengers were told about the platform number to get on board 2 minutes before the trains new departure time.
+
+-   the train had another 6 to 10 minutes delay after passengers were on board.
+
+-   the tv inside the train showed the train arrived to stations on time (based on the old schedule).
+
+**Clarify Instructions**
+
+Please provide a 1000-word analysis of a behavioural intervention campaign that aims to, or alleviates, the train delay issue. Include one or more relevant framework of behavioural intervention, relevant academic research papers (including in-text citations where possible).
+
+**Render Tone**
+
+As it will be published to public, it should be readable to non-technical audience with a professional tone. In the analysis, use bullet points if necessary.
+
+**Outline Format & Exemplify**
+
+Format the response into four sections and present it on canvas for further editing:
+
+1.  Provide description and step-by-step reasoning why certain behavioural intervention frameworks chosen, and their elements
+
+2.  Effective behavioural intervention campaign with examples. Outline of an experimentation is preferred.
+
+3.  Key performance metrics to assess the experiment for tracking campaign success
+
+4.  Relevant parties in the UK to communicate with about this campaign”
+
+### From AI to Insights
+
+ChatGPT's response was promising but, as expected, only touched the surface of this complex issue. Here's the actual response I received:
+
+------------------------------------------------------------------------
+
+“**Title: Behavioural Intervention Campaign to Improve Passenger Experience During Train Delays Between London Euston and Birmingham New Street**
+
+1.  Frameworks for Behavioural Intervention: Rationale and Elements
+
+To design an effective behavioural intervention campaign for improving the passenger experience during train delays, we rely on two key frameworks:
+
+COM-B Model (Capability, Opportunity, Motivation – Behaviour)
+
+The COM-B model, developed by Michie et al. (2011), provides a comprehensive approach to understand and influence behaviour:
+
+-   **Capability:** Do passengers have the psychological understanding and physical means to cope with delays?
+
+-   **Opportunity:** Are there external factors enabling or inhibiting positive behaviours (e.g., communication quality, station facilities)?
+
+-   **Motivation:** What drives passengers' actions during delays — frustration, expectations, social norms?
+
+EAST Framework (Easy, Attractive, Social, Timely)
+
+This framework by the Behavioural Insights Team (2014) simplifies intervention design:
+
+-   **Easy:** Make the preferred behaviour simple to follow.
+
+-   **Attractive:** Use design and rewards to draw attention.
+
+-   **Social:** Highlight what others are doing.
+
+-   **Timely:** Prompt people when they are most receptive.
+
+**Why these frameworks?**
+
+-   COM-B enables diagnosis of behavioural barriers and informs targeted strategies.
+
+-   EAST ensures the strategy is user-friendly and likely to engage a broad audience.
+
+By combining COM-B and EAST, we aim to understand why current behaviours occur and how to encourage better responses to train delays through subtle, cost-effective interventions.
+
+2.  Intervention Campaign Design and Experimentation Objective
+
+To reduce passenger frustration and increase transparency and satisfaction during train delays between London Euston and Birmingham New Street.
+
+Behavioural Issues Identified
+
+-   Delayed and inconsistent communication about platform numbers.
+
+-   Misleading onboard information systems.
+
+-   Passengers feel uncertain and powerless.
+
+Campaign: "Stay on Track: Know What to Expect"
+
+A behavioural intervention with the following components:
+
+**1. Transparent Delay Alerts (Timely & Attractive)**
+
+-   Clear digital signage at stations explaining typical delay durations.
+
+-   Notifications via app with real-time expectations ("Your train is likely to be delayed by 10–15 minutes as usual on this route").
+
+-   Emojis or icons indicating delay severity to visually cue expectations.
+
+**2. Platform Predictability Nudges (Easy & Timely)**
+
+-   Historical data used to display “likely platform” estimates earlier.
+
+-   Add colour-coded signs for confidence level: “Platform 6 (90% confidence).”
+
+**3. Positive Waiting Spaces (Attractive & Social)**
+
+-   Designate waiting zones with visual entertainment, digital books, trivia, or live social feeds.
+
+-   Prominent signage with messages like “80% of passengers wait here calmly when delays occur.”
+
+**4. Onboard Honesty Campaign (Capability & Motivation)**
+
+-   Modify onboard screens to show accurate real-time delays instead of default timetables.
+
+-   Train staff provide brief audio updates highlighting the realistic expected arrival.
+
+Proposed Experiment
+
+**Design:** Randomised Controlled Trial (RCT)
+
+-   **Control Group:** Standard delay experience, no interventions.
+
+-   **Intervention Group:** Receives all "Stay on Track" campaign elements.
+
+**Location:** London Euston to Birmingham New Street line over 6 weeks.
+
+**Sample Size:** 2,000 passengers (1,000 per group).
+
+**Data Collection Methods:**
+
+-   Surveys post-journey (NPS, satisfaction, perceived transparency).
+
+-   Mobile app engagement data.
+
+-   Delay tolerance observation (e.g., agitation levels, complaints).
+
+3.  Key Performance Metrics to Assess Campaign Success
+
+**Quantitative Metrics**
+
+-   **Passenger Satisfaction Score:** Pre- and post-journey survey responses.
+
+-   **Net Promoter Score (NPS):** Measures likelihood of passengers recommending the service.
+
+-   **Real-time App Engagement:** Click-through rate on delay notifications.
+
+-   **Complaint Rates:** Changes in frequency and tone of delay-related complaints.
+
+**Behavioural Metrics**
+
+-   **Passenger Movement:** Use of waiting zones vs. platform crowding.
+
+-   **Delay Acceptance Levels:** Whether passengers exhibit fewer negative behaviours (e.g., confrontations, social media rants).
+
+**Qualitative Feedback**
+
+-   Interviews or open-ended survey responses about feelings of control, clarity, and fairness.
+
+4.  Relevant UK Stakeholders to Engage To ensure the intervention’s success and scalability, collaboration with the following parties is recommended:
+
+-   **Network Rail:** Controls station facilities and digital signage.
+
+-   **Avanti West Coast:** Operator of the London Euston to Birmingham New Street line.
+
+-   **Department for Transport (DfT):** For potential policy integration and funding support.
+
+-   **Office of Rail and Road (ORR):** Provides regulatory oversight and data sharing.
+
+-   **Transport Focus:** Independent transport user watchdog that collects passenger feedback.
+
+-   **Behavioural Insights Team (BIT):** For co-design and evaluation assistance.
+
+-   **Rail Delivery Group:** Industry body coordinating between train operators.
+
+Early engagement and co-design workshops with these partners will help embed the intervention within operational systems and align with ongoing digital transformation efforts.
+
+**Conclusion:** By applying behavioural insights to improve how information is shared and environments are designed during train delays, we can transform a common frustration into a more manageable experience. This campaign offers a replicable model for other high-delay routes, paving the way for a more empathetic and transparent transport system."
+
+------------------------------------------------------------------------
+
+The above analysis shows how AI can quickly structure a problem space, providing a foundation for human creativity and expertise to build upon. While algorithmically sound, it lacks the nuanced understanding that comes from lived experience - which is exactly where our human perspective adds value (that's why I asked ChatGPT to present the response on canvas, which I could further refine and expand upon in small, manageable portions)!
+
+### The Irony of Innovation
+
+By the time my train arrived (still 16 minutes late!), I had the skeleton of a behavioral intervention project that I'm genuinely excited to develop further. What began as an annoying delay, surprisingly, transformed into the seed of something potentially valuable.
+
+### The Bigger Question
+
+This experience makes me wonder: *How often do we miss these moments of potential creativity because we're placing the spotlight on the frustration of disruption? What other "waiting periods" in our lives could, with a few dose of our creativity, be reframed as opportunities for innovation?*
+
+Sometimes does our best thinking happen not despite interruptions, but *because of* them.
+:::

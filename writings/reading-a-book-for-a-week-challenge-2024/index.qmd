@@ -1,0 +1,35 @@
+---
+title: "Reading a book for a week challenge in 2024"
+author: "Fendi Tsim"
+date: "2025-01-30"
+---
+
+::: justify
+For the past two years, I have been experimenting with a personal reading challenge — reading a book a week.\
+\
+This has been a very intriguing personal experiment as it has helped me improve my reading speed, time management, and planning skills.\
+\
+In [2023](../reading-a-book-for-a-week-challenge-2023/index.qmd), my reading goal was 52 books, but I managed to read 68 books by the end of the year. Encouraged by this achievement, I set an ambitious goal at the start of 2024: to read 100 books (around two books per week). However, by the end of last year, I had finished 84 books. This outcome highlights the effects of Optimism Bias.
+
+### Achieving a yearly goal like this one requires some planning and assistance
+
+1.  Dividing the pages of a book into 7 chunks and reading one chunk per day\
+    Each chunk typically consists of around 30 to 40 pages. Normally, I read 10-20 pages (with a cup of coffee) in the morning and complete the rest during my commute.
+
+2.  Joining Goodreads’ yearly reading challenge\
+    The progress bar has been a significant motivator - early on, it’s satisfying to see steady progress. Later in the challenge (e.g., after reaching about 60 books), I found energy in knowing I had 40 books left to go, rather than focusing on the number of books I had already completed.
+
+3.  Public announcement via social media\
+    Posting pictures of books I’ve read on social media (e.g., an online bookclub my friend Ivelina organized) fosters a sense of accountability and encourages further discussions about the books. Being a member of an online bookclub has added a communal and interactive dimension to my reading experience.\
+
+### My reflections from this challenge
+
+1.  Being aware of optimism bias\
+    Setting a realistic goal of 52 to 60 books a year will make the challenge more manageable and satisfying.\
+2.  Conducting monthly reviews of the number and genres of books I’ve read\
+    These reviews provide insights into whether I’m meeting my goals and help me decide if I need to focus more or less on certain genres in the upcoming months.\
+3.  Engaging in deep conversations about the books I’ve read with friends\
+    These discussions foster greater engagement and often inspire me to explore related topics or themes in future readings.
+
+Have you ever tried a similar challenge? What strategies worked for you in staying consistent with your goals?\
+:::

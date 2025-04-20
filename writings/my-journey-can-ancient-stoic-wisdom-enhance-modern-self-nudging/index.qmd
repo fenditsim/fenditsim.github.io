@@ -1,0 +1,38 @@
+---
+title: "My Journey: Can Ancient Stoic Wisdom Enhance Modern Self-Nudging?"
+author: "Fendi Tsim"
+date: "2025-03-03"
+---
+::: justify
+The ancient Stoics never experienced the dopamine hit of a smartphone notification, yet their wisdom feels more relevant than ever in our hyper-connected world.
+
+During my PhD journey in Behavioral Science, I've found myself drawn to Stoic philosophy - Seneca's piercing insights in "On The Shortness of Life" and "Letters from a Stoic," to Marcus Aurelius's personal reflections in "Meditations." Ryan Holiday's modern take in "The Obstacle is The Way" deepened my fascination - intoxicating within the realm of Stoicism.
+
+What intrigues me most is the untapped potential at the intersection of Stoicism and Behavioral Science – particularly in the realm of self-nudging, that is, as Samuli Reijula from University of Helsinki and Ralph Hertwig from Max Planck Institute for Human Development note in their paper, "empowering interventions that enable people to design and structure their own decision environments - that is, to act as citizen choice architects" (<https://doi.org/10.1017/bpp.2020.5>).
+
+## The ‘Control’ Experiment
+
+We've become Pavlov's dogs of the digital age - conditioned to salivate at every notification, our emotions hijacked by algorithms and circumstances beyond our control. Can we apply the Stoic dichotomy of control to break this cycle?
+
+Over the last two months, I've been running a simple experiment on myself: inserting a few seconds of reflection before reacting emotionally to any situation. In that brief pause, I ask: "What can I control here? What are the matters that I cannot control?"
+
+The answer is almost always the same: *neither the circumstance itself nor the people involved, but my response to it.*
+
+This micro-intervention has profound effects on me over time: by questioning whether my reaction aligns with my personal goals and principles, I've gradually reclaimed agency as well as control over my emotional landscape, and to a certain extent, surprisingly, *freedom*.
+
+The experimentalist in me appreciates the elegance of starting small. Each 1% improvement, as James Clear aptly describes in "Atomic Habits," creates a reward feedback loop - building confidence that gradually extends to other life domains - a perfect example of behavioral scaffolding in action. After all, every significant achievement at an instance is merely a gradual accumulation of these small victories over time.
+
+## Meditations: The Morning Pages Protocol
+
+Inspired by Marcus Aurelius's "Meditations" (essentially the journal of a Roman Emperor processing his thoughts), I've established my own morning ritual for the past month. Each day begins with my notebook - a deliberate space for clarity before the world's demands rush in.
+
+This practice serves as both meditation and meta-cognition: it's become a healing experience that helps me articulate emotions that would otherwise remain shapeless anxieties and endless worries. How a day starts, undoubtedly, creates momentum that carries through - a powerful nudge toward intentionality.
+
+## Reflection
+
+Overall, what fascinates me is how these ancient practices align perfectly with what modern behavioral science teaches us about habit formation, emotional regulation, attentional control, and the profound impact of self-nudging on our day-to-day behaviors.
+
+From time to time, I've wondered if the Stoics were the original behavioral scientists - creating philosophical frameworks that nudge us toward better decisions and greater well-being.
+
+What ancient wisdom have you found surprisingly relevant to your modern challenges? And how might we systematically incorporate these timeless insights into the behavioral interventions of tomorrow?
+:::
