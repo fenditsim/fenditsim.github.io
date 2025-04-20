@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://fenditsim.github.io/portfolio/building-a-choropleth-map-for-england-and-wales-with-shiny/index.html</loc>
+    <lastmod>2025-04-20T11:30:17.404Z</lastmod>
+  </url>
+  <url>
     <loc>https://fenditsim.github.io/portfolio/creating-a-personal-website-with-quarto/index.html</loc>
     <lastmod>2024-06-15T11:01:00.434Z</lastmod>
   </url>
@@ -11,6 +15,10 @@
   <url>
     <loc>https://fenditsim.github.io/portfolio/index.html</loc>
     <lastmod>2024-12-31T10:25:34.926Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fenditsim.github.io/portfolio/building-a-multi-agent-system-with-crewai/index.html</loc>
+    <lastmod>2025-04-20T11:29:54.208Z</lastmod>
   </url>
   <url>
     <loc>https://fenditsim.github.io/portfolio/building-a-bus-timetable-app-with-shiny/index.html</loc>
@@ -65,11 +73,19 @@
     <lastmod>2024-11-03T07:58:33.615Z</lastmod>
   </url>
   <url>
+    <loc>https://fenditsim.github.io/portfolio/sexy-framework-for-ai-implementation/index.html</loc>
+    <lastmod>2025-04-20T14:00:37.752Z</lastmod>
+  </url>
+  <url>
     <loc>https://fenditsim.github.io/portfolio/FxCAs/index.html</loc>
     <lastmod>2024-06-11T20:35:52.115Z</lastmod>
   </url>
   <url>
     <loc>https://fenditsim.github.io/portfolio/tips-on-working-with-r-environment/index.html</loc>
     <lastmod>2024-06-15T10:59:06.885Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fenditsim.github.io/portfolio/score-prompt-framework-for-chatgpt-4o/index.html</loc>
+    <lastmod>2025-04-20T14:08:19.100Z</lastmod>
   </url>
 </urlset>
