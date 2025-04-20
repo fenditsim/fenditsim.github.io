@@ -8,7 +8,7 @@ website:
   favicon: img/logo.png
   navbar:
     background: "#FFFFFF"
-    foreground: "#5CB6BD"
+    foreground: "#f01313"
     right:
       - text: "About Me"
         href: resume/index.qmd
@@ -28,7 +28,7 @@ filters:
 
 format:
   html:
-    theme: minty
+    theme: journal
     css: styles.css
     toc: false
     smooth-scroll: true
