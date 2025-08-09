@@ -1,0 +1,42 @@
+---
+title: "AI Implementation Framework: SEXY"
+author: "Fendi Tsim"
+format:
+  html:
+    toc: true
+date: "2025-04-19"
+---
+
+::: justify
+AI Implementation needs to be **SEXY**.\
+\
+In today's rapidly evolving technological landscape, I believe how we implement AI needs to be 'SEXY' to deliver true value.\
+
+**Strategic & Ethical**\
+AI Strategy & AI Ethics - these complementary dimensions form the complete AI ‘body’.\
+\
+Strategic alignment represents the external framework - ensuring AI addresses specific business challenges and supports organizational goals and long-term vision. Strategic AI deployment focuses on addressing specific challenges, instead of implementing technology for its own sake. For instance, do our AI initiatives support our business goals? Are we measuring outcomes that matter for our organization's success?\
+\
+Ethics forms the core within - guiding principles that address bias, ensure privacy, and respect human autonomy. For instance, how are we ensuring your AI applications don't perpetuate existing societal biases? What governance frameworks have we implemented to guide responsible AI development?\
+\
+One without the other creates either soulless or directionless AI.\
+\
+**Explainable & Why**\
+These elements illuminate different yet interdependent aspects of AI.\
+\
+Black-box AI solutions undermine trust. Explainable AI allows stakeholders to understand how decisions are made, fostering confidence and enabling meaningful human oversight. Perhaps our team can explain how our AI models arrive at their conclusions? Are we prioritizing transparency in our AI architecture?\
+\
+The "Why" provides the overarching purpose - the meaningful problems we're solving and the value we're creating. This purpose-driven approach ensures AI serves human needs rather than becoming an end in itself. What meaningful problems are we solving with AI? How does our AI implementation improve lives or create value?\
+\
+Together, they connect operational transparency with business purpose.\
+\
+As we navigate the AI revolution, it is crucial to take a deep breath, fancy a boba cuppa, and reflect: Is our approach to AI truly SEXY? Are we building AI systems that are 𝗦trategic, 𝗘thical, e𝗫plainable, and purpose-driven (wh𝗬)? How might reframing our approach to AI help us create more meaningful and sustainable technological futures?\
+\
+I'm sharing a detailed breakdown of this framework, which is a personal view, below. I'd love to hear your thoughts on creating SEXY AI implementation in both professional and personal aspects, and thus more meaningful and sustainable technological futures.\
+\
+If you found this perspective valuable, please share it with your network! We need more conversations about creating meaningful and sustainable AI implementations.\
+
+Framework Introduction: [Here](https://www.linkedin.com/posts/fenditsim_sexy-framework-for-ai-implementation-activity-7319340980749422592-HLtr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB1wVxoBGsRWDfiS7WT_so5EfpT6bVDRwAA)
+:::
+
+![Photo generated with Gamma](/img/sexy-framework-for-ai-implementation.png){fig-align="center"}

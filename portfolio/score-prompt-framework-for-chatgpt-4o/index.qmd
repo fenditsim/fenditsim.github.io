@@ -1,0 +1,27 @@
+---
+title: "SCORE: Prompt Framework for ChatGPT 4o"
+author: "Fendi Tsim"
+format:
+  html:
+    toc: true
+date: "2025-04-06"
+---
+
+::: justify
+Just released: A carousel guide for the SCORE Prompt Framework with a practical example!\
+\
+The SCORE framework with OpenAI's ChatGPT4o I mentioned in my previous posts is now available in an easy-to-digest visual format (special thanks to Ivelina for recommending Gamma to create this resource!). Check it out to transform your interactions with ChatGPT 4o!
+
+The carousel includes a little behavioural design experiment I created while waiting for a delayed train at Euston station recently.\
+\
+Whether you're a behavioural scientist, marketer, or business strategist, this framework can dramatically improve your interactions and outputs with ChatGPT.\
+\
+✅ Check it out and let me know what you think!\
+✅ How are you structuring your prompts today?\
+✅ Share with colleagues who want to level up their AI prompt game!\
+\
+Framework Introduction: <https://lnkd.in/e8WXeDZb>\
+Practical Example: <https://lnkd.in/eYwNhGvf>
+:::
+
+![Photo generated with Gamma](/img/score-prompt-framework-for-chatgpt-4o.png){fig-align="center"}
