@@ -107,6 +107,11 @@ R then asks if you'd like to update your personal website, and type 'Y'. It then
 
 It's alright if you ignore the first step and do the second step only. However, only 'gh-pages' branch is then up-to-date (with an automatic committed message like 'Built site for gh-pages') - it would be better to make sure your `main` branch is also up-to-date, too!
 
+::: {.callout-caution title="Read this if you create the site for the first time" icon="false" collapse="true"}
+Once you create `gh-pages` branch in your repository for the first time, go to `Settings > Pages > Build and deployment > Branch` and select `gh-pages` as the branch for the site. Otherwise, your page will show 404 error message.
+:::
+
+
 ### What's next?
 
 Congratulations! You've created your personal website with Quarto! A few here and there you can customize in your website, such as:
@@ -125,4 +130,5 @@ Congratulations! You've created your personal website with Quarto! A few here an
 
 Have fun creating your website!
 :::
+
 ![](/img/creating-a-personal-website-with-quarto.png){fig-align="center"}
