@@ -2,6 +2,8 @@
   {
     "listing": "/portfolio/index.html",
     "items": [
+      "/portfolio/sexy-framework-for-ai-implementation/index.html",
+      "/portfolio/score-prompt-framework-for-chatgpt-4o/index.html",
       "/portfolio/building-a-multi-agent-system-with-crewai/index.html",
       "/portfolio/building-a-choropleth-map-for-england-and-wales-with-shiny/index.html",
       "/portfolio/building-a-personal-spending-dashboard-with-shiny/index.html",
