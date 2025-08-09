@@ -1,0 +1,14 @@
+/* css styles */
+
+table, td {
+  border-style: none;
+}
+
+th {
+  width: 40%;
+  border-style: none;
+}
+
+.justify {
+  text-align: justify
+}

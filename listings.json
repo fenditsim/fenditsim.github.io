@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/portfolio/index.html",
+    "items": [
+      "/portfolio/building-a-multi-agent-system-with-crewai/index.html",
+      "/portfolio/building-a-choropleth-map-for-england-and-wales-with-shiny/index.html",
+      "/portfolio/building-a-personal-spending-dashboard-with-shiny/index.html",
+      "/portfolio/building-a-bus-timetable-app-with-shiny/index.html",
+      "/portfolio/creating-a-personal-website-with-quarto/index.html",
+      "/portfolio/FxCAs/index.html"
+    ]
+  }
+]
