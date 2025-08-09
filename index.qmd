@@ -1,0 +1,58 @@
+---
+about:
+  template: trestles
+  image: img/profile_picture.jpg
+  image-shape: round
+  image-width: "360px"
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/fenditsim/
+    - icon: github
+      text: Github
+      href: https://github.com/fenditsim
+    - icon: person vcard
+      text: ORCID
+      href: https://orcid.org/0000-0002-3556-4602
+    - icon: database
+      text: OSF
+      href: https://osf.io/8gpks/
+---
+
+::: justify
+Welcome to my personal website!
+
+My name is Fendi, and I am an AI Behavioural Researcher that bridges the gap between human psychology and artificial intelligence to drive informed strategic decisions.
+
+**Research Interests**
+
+-   Behavioural Economics
+
+-   Game Theory
+
+-   Cognitive Science
+
+-   Decision under Risk and Uncertainty
+
+-   Human-Computer Interaction
+
+**Current Focus Areas**
+
+-   AI Impact Assessment
+
+-   Adoption Strategy
+
+-   Ethical & Responsible AI Implementation
+
+I'm actively seeking opportunities where behavioural insights meet cutting-edge AI to tackle complex strategic challenges. I'm ready to collaborate with forward-thinking individuals who recognize that the future of AI success lies in understanding human behaviour.
+
+**A little more about me**
+
+During my spare time I like to spend time with my family and friends, going outdoors and enjoying what Nature has been offering, watching movies and anime (big fan!), taking pictures, going to gym and reading books (trying to be a bookworm - the struggle is real):
+
+-   2025: [x books](https://www.goodreads.com/review/list/164798015-fendi?read_at=2025)
+
+-   2024: [84 books](https://www.goodreads.com/user_challenges/46721122)
+
+-   2023: [68 books](https://www.goodreads.com/user_challenges/45178311)
+:::

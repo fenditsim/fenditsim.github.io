@@ -1,0 +1,34 @@
+---
+title: "Building A Multi-Agent System with CrewAI"
+author: "Fendi Tsim"
+format:
+  html:
+    toc: true
+date: "2025-03-04"
+---
+
+::: justify
+I've been experimenting with CrewAI to build a specialized AI agent teams using only open-source LLMs.\
+\
+Inspired by Viktoria Semaan's Instagram reel about creating a multi-agent team of financial specialists for investment decisions, I took a different approach: while her system relies primarily on proprietary models like Claude from Anthropic, I wanted to explore what happens when we build a multi-agent system using only open-source LLMs - each optimized for specific tasks based on their unique strengths (see below). This approach could be particularly valuable for small to medium-sized businesses looking to deploy AI solutions internally without compromising sensitive data - prioritizing privacy and security (since these models run entirely locally without connecting to the internet).\
+\
+For this experiment, I needed a real-world challenge to test my multi-agent system. Ivelina, a full-time content creator who manages over 2.5M followers across multiple social media accounts, suggested an intriguing task for me: creating a Valentine's Day campaign for an upscale Kensington, London cafe targeting wealthy individuals. I then assembled a crew of my beloved AI agents to tackle this marketing challenge. Each agent was configured with task-specific temperature settings:
+
+-   DeepSeek-r1 by DeepSeek AI due to its analytical powerhouse with fact-based reasoning
+
+-   Mistral by Mistral AI due to its balanced analytical-creative capabilities
+
+-   Phi4 by Microsoft as it excels at logical reasoning and mathematical precision
+
+-   Gemma2 by Google as it is great at engaging, conversational content
+
+-   Llama3.2 by Meta due to its sophisticated creative ideation
+
+This 'division of labor' (drawing inspiration from Adam Smith's notion of Division of Labor - a concept I deeply appreciated during my training as an Economist at the Hong Kong Baptist University) allows each agent to contribute its strengths. Meanwhile, as the Decision Maker, I maintain oversight of the final product, which is an executive summary bringing together all perspectives.\
+\
+Though my initial findings are still preliminary and incomplete, I discovered several significant challenges during this experiment. First, running multiple models locally demands significant computing power. The models also lack access to real-time information, limiting their contextual awareness. Additionally, Shantanu - one of my fellow colleagues conducting research in Strategic Management at the Warwick Business School - aptly pointed out that evaluating individual agent performance within such a system remains complex during our conversation. These challenges present interesting opportunities for future refinement.\
+\
+Has anyone else experimented with multi-agent systems using open-source models? What configurations have you found most effective?
+:::
+
+![](/img/building-a-multi-agent-system-with-crewai.jpg){fig-align="center"}

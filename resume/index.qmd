@@ -1,0 +1,251 @@
+---
+pagetitle: "About Me"
+format:
+  html:
+    toc: true
+    tbl-colwidths: [30, 60]
+---
+
+# Education
+
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sept 2020 - Feb 2025 | PhD in Behavioural Science                                                                                                                                                                                                                  |
+|                      |                                                                                                                                                                                                                                             |
+|                      | Warwick Business School, University of Warwick                                                                                                                                                                                              |
+|                      |                                                                                                                                                                                                                                             |
+|                      | -   Designed lab experiment in oTree with Python to understand coordination in various social interactions such as noncompliance detection and prevention in one-off interactions, as well as turn-taking behavior in repeated interactions |
+|                      | -   Discussed theoretically computation of bargaining power when a bargaining procedure is present based on [Virtual Bargaining](https://doi.org/10.1098/rstb.2013.0487)                                                                    |
+|                      | -   Conducted quantitative analysis with R                                                                                                                                                                                                  |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sept 2019 - Aug 2020 | MPhil in Business and Management                                                                                                                                                                                                            |
+|                      |                                                                                                                                                                                                                                             |
+|                      | Warwick Business School, University of Warwick                                                                                                                                                                                              |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sept 2017 - Oct 2018 | MSc in Behavioural and Economic Science                                                                                                                                                                                                     |
+|                      |                                                                                                                                                                                                                                             |
+|                      | University of Warwick                                                                                                                                                                                                                       |
+|                      |                                                                                                                                                                                                                                             |
+|                      | -   Designed lab experiment in oTree with Python to explore human cooperative behaviour in a two-agent repeated interaction                                                                                                                 |
+|                      | -   Conducted quantitative analysis with R                                                                                                                                                                                                  |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sept 2015 - Aug 2017 | BBA in Applied Economics                                                                                                                                                                                                                    |
+|                      |                                                                                                                                                                                                                                             |
+|                      | Hong Kong Baptist University                                                                                                                                                                                                                |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jun 2016 - Aug 2016  | Pembroke King’s Programme 2016                                                                                                                                                                                                              |
+|                      |                                                                                                                                                                                                                                             |
+|                      | University of Cambridge                                                                                                                                                                                                                     |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jun 2014 - Jun 2014  | English Immersion Programme                                                                                                                                                                                                                 |
+|                      |                                                                                                                                                                                                                                             |
+|                      | The University of Queensland                                                                                                                                                                                                                |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sept 2013 - Aug 2015 | Associate Degree Programme, Associate of Science, Professional Accountancy                                                                                                                                                                  |
+|                      |                                                                                                                                                                                                                                             |
+|                      | Hong Kong Baptist University                                                                                                                                                                                                                |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                                             |
++----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+# Experience
+
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jul 2025 - Present   | Career Transition                                                                                                                                                                                               |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Dedicated this period after PhD graduation to gain industry-specific skills, including Python programming, Data Science certifications, and applied AI techniques                                           |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Actively engaging in professional networking, strategic career exploration, and studying relevant books and research papers to effectively transition my research expertise into impactful industry roles.  |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sept 2024 - Feb 2025 | Advisor                                                                                                                                                                                                         |
+|                      |                                                                                                                                                                                                                 |
+|                      | Warwick Business School PhD Students Society                                                                                                                                                                    |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Led the successful coordination of a comprehensive personal branding and online presence workshop, bringing together professionals to enhance their digital footprint and career development opportunities. |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Delivered ongoing strategic counsel to ensure initiatives and activities remain aligned with the society’s annual goals, contributing to sustained organizational growth and impact.                        |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jan 2025 - Jan 2025  | Work Experience                                                                                                                                                                                                 |
+|                      |                                                                                                                                                                                                                 |
+|                      | Cowry Consulting                                                                                                                                                                                                |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   A two-week work experience that involved conducting literature review, and addressing client’s challenges by leveraging behavioural science principles.                                                     |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Apr 2024 - Oct 2024  | Webmaster                                                                                                                                                                                                       |
+|                      |                                                                                                                                                                                                                 |
+|                      | EGUK/CGVC                                                                                                                                                                                                       |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Spearheaded the complete redesign and rebuilding of EGUK's official website, leveraging modern web development tools including Astro for enhanced performance and static site generation                    |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Managed version control and collaboration through Github, ensuring efficient development workflow and code maintenance                                                                                      |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Delivered an improved web presence that enhanced the organization's digital footprint and user experience                                                                                                   |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Feb 2024 - Aug 2024  | Co-President                                                                                                                                                                                                    |
+|                      |                                                                                                                                                                                                                 |
+|                      | Warwick Business School PhD Students Society                                                                                                                                                                    |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Assisted President with strategic goals setting for the society                                                                                                                                             |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Nov 2022 – Jan 2024  | Lab Assistant                                                                                                                                                                                                   |
+|                      |                                                                                                                                                                                                                 |
+|                      | University of Warwick                                                                                                                                                                                           |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Undertook teaching tasks within a class, seminar, and tutorial or equivalent context in order to progress the student learning about psychological theories and models with MATLAB                          |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jul 2022 – Sept 2023 | Vice President and Experiment Design Advisor                                                                                                                                                                    |
+|                      |                                                                                                                                                                                                                 |
+|                      | Warwick Behavioural Insights Team                                                                                                                                                                               |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Assisted President with strategic goals setting for the society                                                                                                                                             |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Worked directly within Heads of both units and members to build better engagement and collaborations                                                                                                        |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Provided advice on Intervention Design for Nudge Unit team projects                                                                                                                                         |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Jan 2020 – Mar 2020  | Behavioural Science: Lab Assistant                                                                                                                                                                              |
+|                      |                                                                                                                                                                                                                 |
+|                      | Warwick Business School, University of Warwick                                                                                                                                                                  |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Undertook teaching tasks within a class, seminar, and tutorial or equivalent context in order to progress the student learning about Big Data and R                                                         |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| May 2019 – Aug 2019  | Research Assistant                                                                                                                                                                                              |
+|                      |                                                                                                                                                                                                                 |
+|                      | Warwick Business School, University of Warwick                                                                                                                                                                  |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Conducted literature review for a working paper                                                                                                                                                             |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Designed lab experiment code in oTree with Python                                                                                                                                                           |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Oct 2017 – Oct 2018  | Behavioural Nudge Analyst and Founding Member                                                                                                                                                                   |
+|                      |                                                                                                                                                                                                                 |
+|                      | Warwick Behavioural Insights Team                                                                                                                                                                               |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Conducted qualitative and quantitative research on end-of-term food wastage in a team of 6                                                                                                                  |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Formulated environmental nudge proposal to reduce food wastage                                                                                                                                              |
+|                      |                                                                                                                                                                                                                 |
+|                      | -   Presented proposal to a panel of stakeholders, including lecturers and university estate staff                                                                                                              |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                                                                                                 |
++----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+# Skills
+
+::::::::::::::::::::::: colunmns
+:::: {.column width="48%"}
+::: {.callout-tip title="R" icon="false" collapse="true"}
+-   Statistical Analysis
+-   Time Series Analysis
+-   Data Visualization with ggplot2, Plotly and Leaflet
+-   Web Development with Shiny and Quarto
+-   Web scrapping
+-   Creating package
+-   Data Manipulation with dplyr, data.table
+-   Machine Learning
+-   Running with Large-Language Models
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-warning title="Python" icon="false" collapse="true"}
+-   Conducting web-based interactive tasks with oTree
+-   Data Manipulation with Pandas
+-   Statistical Analysis
+-   Data Visualization with Matplotlib
+-   NumPy and SciPy
+-   Machine Learning
+-   Langchain
+-   crewai
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-tip title="Git" icon="false" collapse="true"}
+-   Version Control with repository
+-   Website Deployment (with Shiny (Shinylive) and Quarto)
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-warning title="SQL" icon="false" collapse="true"}
+-   Data Manipulation
+-   Aggregate Functions
+-   Connecting Tables
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-warning title="Matlab" icon="false" collapse="true"}
+-   Statistical Analysis
+-   Data Visualization
+-   Simulation (Agent-Based Modelling)
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-caution title="Stata" icon="false" collapse="true"}
+-   Data Management
+-   Statistical Analysis
+-   Regression Analysis
+-   Data Visualization
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-caution title="Mplus" icon="false" collapse="true"}
+-   Data Management
+-   Data Analysis such as Structural Equation Modelling
+-   Connecting with R
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-caution title="SPSS" icon="false" collapse="true"}
+-   Data Management
+-   Statistical Analysis
+-   Data Visualization
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-caution title="Astro" icon="false" collapse="true"}
+-   Web Development with HTML, Javascript and CSS
+:::
+::::
+
+:::: {.column width="48%"}
+::: {.callout-tip title="Microsoft software" icon="false" collapse="true"}
+-   Word
+-   PowerPoint
+-   Excel
+:::
+::::
+:::::::::::::::::::::::

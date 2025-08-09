@@ -1,0 +1,11 @@
+---
+pagetitle: "Portfolio"
+title: "What I've been working on"
+listing:
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  categories: false
+  image-height: 360px
+  fields: [image, title, reading-time]
+---
