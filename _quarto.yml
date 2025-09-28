@@ -31,7 +31,7 @@ format:
     anchor-sections: true
     section-divs: true
     grid: 
-      body-width: 1600px
+      body-width: 1000px
 
 
 editor: visual
