@@ -15,8 +15,17 @@ about:
       text: ORCID
       href: https://orcid.org/0000-0002-3556-4602
     - icon: database
-      text: OSF
+      text: OSF.io
       href: https://osf.io/8gpks/
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&user=XLcSc8kAAAAJ
+    - icon: substack
+      text: Substack
+      href: https://substack.com/@fenditsim
+    - icon: medium
+      text: Medium
+      href: https://medium.com/@fendi.tsim
 ---
 
 ::: justify
