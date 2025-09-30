@@ -12,3 +12,17 @@ th {
 .justify {
   text-align: justify
 }
+
+/* Hide button text on larger screens (desktop) */
+@media (min-width: 993px) {
+  .about-links .about-link .about-link-text {
+    display: none !important;
+  }
+}
+
+/* Show button text on smaller screens (mobile) */
+@media (max-width: 992px) {
+  .about-links .about-link .about-link-text {
+    display: inline !important;
+  }
+}
