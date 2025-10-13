@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Fendi Tsim">
-<meta name="dcterms.date" content="2024-08-01">
 
-<title>Building a bus timetable app with Shiny – Fendi Tsim</title>
+<title>Research – Fendi Tsim</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,20 +23,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../../img/logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d228f3d02a48b37ee4db9b7e73016bba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../img/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d228f3d02a48b37ee4db9b7e73016bba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -55,9 +53,14 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<style>
+details {
+  text-align: justify;
+}
+</style>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -67,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Fendi Tsim</span>
     </a>
   </div>
@@ -77,15 +80,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../resume/index.html"> 
+    <a class="nav-link" href="../resume/index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
+    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../portfolio/index.html"> 
+    <a class="nav-link" href="../portfolio/index.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
@@ -99,93 +102,80 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#phd-thesis" id="toc-phd-thesis" class="nav-link active" data-scroll-target="#phd-thesis">PhD Thesis</a></li>
+  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working Papers</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Building a bus timetable app with Shiny</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Fendi Tsim </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2024</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="justify">
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>In this post, I present a bus timetable app (<a href="https://fenditsim.shinyapps.io/shiny-bus-timetable/">link</a>) for students at the University of Warwick made with Shiny. This Shiny app is for illustration purpose only.</p>
-<p>I extract daily timetable data (which are downloadable) from <a href="https://nxbus.co.uk/coventry/services-timetables">NX Bus Coventry</a>.</p>
-<p>Note that this bus timetable app does not produce real-time information; it basically illustrate all timeslots in a timetable provided.</p>
-<p>This bus timetable app only shows timeslots for buses under NX Bus Coventry. It is possible to shows buses from Stagecoach in future updates (if relevant timetable are downloadable publicly).</p>
-</section>
-<section id="features" class="level3">
-<h3 class="anchored" data-anchor-id="features">Features</h3>
-<p>This bus timetable app has two inputs:</p>
+<section id="phd-thesis" class="level2">
+<h2 class="anchored" data-anchor-id="phd-thesis">PhD Thesis</h2>
+“An experimental investigation of virtual bargaining in one-shot and repeated games” (2024) [<a href="https://wrap.warwick.ac.uk/id/eprint/191656/1/WRAP_Theses_Tsim_2024.pdf">link</a>]
+<details>
+<summary>
+Abstract
+</summary>
+<p>In this thesis, I aim to explain the existence of coordination without communication, a striking finding in studying interactive decision making in non-cooperative interactions. I apply, and test, Virtual Bargaining (henceforth VB), a recent theory of psychological commitment whereby agents choose based on tacit agreements formed via hypothetical negotiations.</p>
+<p>The first part of this thesis investigates coordination in an adversarial, one-off interaction between an employer and a worker called the Inspection Game.</p>
+<p>Chapter 2 investigates how varying inspection cost affects likelihood of noncompliance detection. When inspection is at substantially higher costs, Nash reasoning predicts no inspection, while VB predicts inspection is still possible, even when it is very costly to do so. We also investigate whether social norm might instead be potential cause to our finding and find no support for this hypothesis.</p>
+<p>Extending the theory of VB, Chapter 3 discusses theoretically how an appearance of a bargaining procedure in an interaction, such as nonbinding, costless agreements, creates an asymmetry in bargaining power among agents, and thus often facilitates coordination. We discuss how this new approach to VB can be applied into other social interactions, helping to explain why unilateral, instead of bilateral, communication can lead to more coordination in an interaction.</p>
+<p>Chapter 4 explores noncompliance prevention with unilateral, costless communication in the Inspection Game. We apply theoretical discussion from Chapter 3 with other psychological theories that explain sender’s promise-keeping behavior. We find that the effectiveness of unilateral communication for preventing noncompliance depends on who the sender in an employer-worker relationship is.</p>
+<p>The second part of this thesis emphasizes on coordination in a dyadic, repeated interaction whereby “taking turns” is mutually beneficial. Chapter 5 explores reciprocation in the Alternation Game. This chapter also discusses other theories that explain pro-sociality in social interactions as potential drivers of reciprocation in this context.</p>
+</details>
+<p>Individual Chapters:</p>
 <ul>
-<li><strong>From</strong>: the starting point</li>
-<li><strong>To</strong>: the destination</li>
-</ul>
-<p>The default option for each of these two inputs are ‘Pool Meadow Bus Station’ and ‘University of Warwick Bus Interchange’ respectively.</p>
-<p>User can select different starting point (e.g., Coventry Rail Station) with the same destination (‘University of Warwick Bus Interchange’), or different destinations with the same starting point (‘University of Warwick Bus Interchange’).</p>
-<p>Under these two inputs there are four rows; each row represent a bus and its arrival time, indicated with a color box.</p>
-<p>If a bus is available, its corresponding color box shows two lines. The first lines shows how many minutes left before it starts from the starting point, while the second line shows its time. User can click into the color box to see the last and upcoming bus arrival times (in terms of time and minutes).</p>
-<p>There are four possible colors in a color box:</p>
-<ul>
-<li><p><strong>red</strong>: less than 5 minutes</p></li>
-<li><p><strong>yellow</strong>: between 5 and 10 minutes</p></li>
-<li><p><strong>green</strong>: more than 10 minutes</p></li>
-<li><p><strong>purple</strong>: No information available (shown as NA; ‘Not Applicable’)</p></li>
+<li><p>Chapter 1: Introduction</p></li>
+<li><p>Chapter 2: <strong>How does Inspection Cost affect choices in the Inspection Game?</strong></p>
+<details>
+<summary>
+<p>Abstract</p>
+</summary>
+<p>In an employer-worker relationship, an employer deploys an inspection, albeit costly to her, to detect, and discourage noncompliance behavior from her worker. It is natural to assume that the cost of paying to inspect has an impact on both roles. A well-developed approach in game theory, Nash reasoning, predicts that noncompliance cannot be discouraged entirely as both randomize their own choices for their own interests. Nash reasoning predicts that an employer is better off letting go of inspection once it becomes costlier than paying for worker’s wage. We posit our investigation of inspection cost in the Inspection Game, which models an adversarial interaction between an employer and her worker. We apply Virtual Bargaining (henceforth VB) that show worker’s non-compliance can be discouraged entirely, inspection can still be an effective deterrence when it becomes costlier, and when inspection loses its effectiveness entirely. We conduct two experiments with online participants: a choice experiment with three different inspection costs (Low, Medium and High) in which Nash reasoning and VB have the same predictions in Low and High conditions, but they diverge in the Medium condition; a norm elicitation experiment that explores the underlying norm by eliciting socially appropriate ratings of each action in our choice experiment. Surprisingly, our choice experiment reports that worker’s shirking probability does not vary across three conditions, and there is a negative association between inspection cost and employer’s inspecting probability. Interestingly, inspecting probability does not drop to zero in both Medium and High conditions, as Nash reasoning predicts. Our norm elicitation experiment reports that inspection and working are the most socially appropriate actions for both roles in most conditions, yet this cannot explain behaviors well in the choice experiment.</p>
+</details></li>
+<li><p>Chapter 3: <strong>Virtual Bargaining with Asymmetric Bargaining Power</strong></p>
+<details>
+<summary>
+<p>Abstract</p>
+</summary>
+<p>We often see social interactions that multiple equilibria agents could coordinate on, and usually decision theories like Nash reasoning and Virtual Bargaining (henceforth VB) cannot provide a unique solution. A ‘refinement’ in selecting an equilibrium is necessary. A simple way for such refinement is to posit an interaction, as VB posits, as a bargaining situation among agents, and implement a procedure such as pre-play communication before they make a choice. This chapter proposes VB with Asymmetric Nash Bargaining Solution (henceforth ‘VB-ANBS’), a new approach of VB in attempting resolving coordination issues in interactions whereby a bargaining procedure is incremented in an interaction. VB-ANBS assumes that when a bargaining procedure is incremented, an agent’s bargaining power can be viewed as a confrontation between two types of psychological forces in social psychology: an agent’s ‘inducing’ force on the other agent, and a ‘resisting’ force of an agent when receiving an inducing force from others. An agent’s bargaining power is defined as the relative strength of her force in totality of forces acting on a given interaction at a given time. A’s bargaining power is then calculated as a ratio between her inducing force on B’s action and the sum of forces (her inducing force and B’s resisting force) in their interaction. This theoretical discussion first posits dyadic two-stage interactions whereby pre-play communication is present. VB-ANBS illustrates how a virtual bargain is in an interaction is influenced by the presence of a procedural asymmetry, for instance, how coordination can be achieved in mixed-motive games, how the ability to communicate in advance influences whether a potential threat can be implemented or avoided in a social interaction. Also, VB-ANBS provides insights as to why a bilateral communication, or unlimited conversation between a pair, might not lead to a virtual bargain in a context whereby their interests are not well-aligned. As power is relational among agents in a bargaining situation, VB-ANBS can explain differences in two common types of leadership (authoritarian and democratic), why the effect of a public announcement diminishes with group size as well as power distance, in terms of bargaining power.</p>
+</details></li>
+<li><p>Chapter 4: <strong>Communication as Noncompliance Prevention in the Inspection Game</strong></p>
+<details>
+<summary>
+<p>Abstract</p>
+</summary>
+<p>In our daily lives, non-binding, costless statements are ubiquitous as an effective coordination device. In an employer-worker relationship, could such statements be an effective tool for an employer to prevent from, and thus discourage, noncompliance behavior from her worker? In this study, we posit our investigation on such adversarial interaction as the Inspection Game and discuss whether and how one-way communication can be an effective tool for noncompliance prevention. We apply three theories that explains why a sender keeps her promises: due to tacit agreements in an interaction when a bargaining procedure is present (VB with Asymmetric Nash Bargaining Solution), an aversion of anticipating that her recipient is let down when a promise is not kept (Guilt Aversion) and an aversion of a psychological cost when an inconsistency occurs between a promise and an action (Lying Aversion). We conduct an experiment with online participants: an Inspection Game with three different inspection costs (Low, Medium, and High) and two directions of communication (Downward and Upward) that theories have different predictions. Our study reports that talk is not ‘cheap’, and the direction of communication matters. Both employer and worker exploit the advantage of pre-play communication for personal interests. Interestingly, recipients behave differently from the prediction of a standard theoretical reasoning. We also explore the meaning of messages with a classification (promise, statement of intent, and empty talk), and show that most senders exploit fully the ability to send a pre-play promise or a statement of intent, and their recipients make a choice according to their messages. We conclude that one-way communication, depending on who can send a pre-play message in an employer-worker relationship, can be an effective tool for noncompliance prevention.</p>
+</details></li>
+<li><p>Chapter 5: <strong>Exploring Reciprocation in the Alternation Game</strong></p>
+<details>
+<summary>
+<p>Abstract</p>
+</summary>
+<p>Reciprocity, as a form of coordination, is ubiquitous in social interactions. However, what does reciprocal behavior look like, and most importantly, why does reciprocal behavior exist in a non-cooperative, repeated interaction? We explore reciprocal behaviors in the Alternation Game (henceforth ‘AG’), a variant of the finitely repeated prisoner’s dilemma that a pair can be mutually beneficial by engaging in turn-taking behavior as a reciprocal behavior. Nash reasoning conjectures that reciprocation is impossible in the finitely repeated prisoner’s dilemma and AG, while a vast body of experimental studies contradicts this. Our exploratory study investigates two main reasons why Nash reasoning fails to predict: whether reciprocal behavior is driven by an individual’s concerns about others as well as own welfare (an aversion towards inequity posited by the Fairness model and an individual’s Social Value Orientation posited by the SVO Integrative Model), or an individual’s strategic concerns such as following an implicit tacit agreement in a context (Virtual Bargaining) or concerns about own reputation (Reputation Building). We conducted an online experiment with two different payoff conditions of AG that predictions from other-regarding preferences and strategic concerns differ. Our result shows various, instead of one, forms of reciprocal behaviors such as taking turns throughout the game (alternation), and cooperating in all rounds (cooperation). We also observe that a portion of participants do not reciprocate at all in the game (defection), which aligns with the finding in the finitely repeated prisoner’s dilemma. We find that a more cooperative environment does not lead to a rise in cooperation, thus cooperation in our finding is not context-dependent, which other-regarding preferences postulate. A portion of participants exhibit turn-taking behavior (in consecutive rounds or not) in both conditions. We find that they are virtual bargainers, instead of reputation builders.</p>
+</details></li>
+<li><p>Chapter 6: Conclusion</p></li>
 </ul>
 </section>
-<section id="background" class="level3">
-<h3 class="anchored" data-anchor-id="background">Background</h3>
-<p>This project is one of the projects I started paying more attention to recently.</p>
-<p>It started off during a bus strike in Coventry in March 2023. At that time I was very confused about bus arrivals as Apple Maps, Google Maps and the one inside MyWarwick app did not show real-time information whenever buses worked.</p>
-<p>I then went on official sites and found some useful information. Yet, it is not mobile-browser-friendly as table of the timetable did not adjust to a mobile browser size. Also, it could be frustrating to scroll through the table, when what I really wanted to know from it is when the upcoming bus arrival would be!</p>
-<p>I had an idea of building a bus timetable app with Shiny during Christmas last year. I could not pay a lot of attention due to major issues in my professional and personal lives.</p>
-<p>Recently I picked up from where I left of eight months ago, and started working it extensively. I encountered a number of challenges both in front-end (such as the layout and design) and back-end (how to match with the current time) etc. As for the front-end, I took the traffic light approach - it’s straightforward, and commonly known among us - red is ‘danger’, yellow is ‘mild’ and green is ‘alright’. As for the back-end, it is, in fact, fascinating to learn how to deploy a shiny app that automatically refreshes after a certain time, how to update one input conditionally on another input etc.</p>
-<p>Despite all the challenges I encountered while coding it, I am truly grateful it works the way I envisioned a year ago!</p>
-<p>Most importantly, I hope it ultimately benefits UoW students who commute daily by buses. After staying here for more than six years, I truly understand the frustration when asking ‘when the bus will be here soon?!’.</p>
-<p>It reminds me of one time I was waiting for 12x (an express bus between university and city centre) with a group of my friends at night in January (very cold!). One of my friends asked if we should wait for 12x though there was 11 (a bus with way more stops than 12x).</p>
-<p>We started to view it as a decision-making problem - ‘a bet’ between a certain option with 11 (albeit taking more time) or an uncertain option with 12x (who knows when exactly it would arrive at night?).</p>
-<p>I do not remember which option we chose anyway. At that time, of course, it would be way better if we did have an app that shows bus arrival!</p>
-<p>MyWarwick app has a feature of showing bus arrivals time, but it seems to restrict on showing arrivals in some stops. Other alternatives such as Apple Maps and Google Maps work well. Recently I noticed that we can use CityMapper for checking bus arrival - an app I would recommend using as it works in other big cities in UK such as London (can’t live without it as it shows how much a trip would cost for alternatives), Birmingham and Manchester.</p>
-<p>In the end, I am glad that I’ve made this app the way I envisioned! This bus timetable app is similar to a group of people back home creating a mobile app that shows real-time bus arrival. Honestly, theirs is way more advanced than mine!</p>
+<section id="working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
+<ul>
+<li><p><strong>CIA: A Prompt Framework Mitigating Sycophancy</strong> with Shantanu Sharma</p></li>
+<li><p><strong>SCAN: A Decision Making Framework for Task Assignment with General AI</strong> with <a href="https://scholar.google.com/citations?user=bjfbYmAAAAAJ&amp;hl=en&amp;oi=ao">Alina Gutoreva</a></p></li>
+<li><p><strong>AI as Part of Self</strong> with <a href="https://scholar.google.com/citations?user=bjfbYmAAAAAJ&amp;hl=en&amp;oi=ao">Alina Gutoreva</a></p></li>
+</ul>
+
+
 </section>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../img/building-a-bus-timetable-app-with-shiny.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -623,5 +613,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
