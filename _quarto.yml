@@ -12,6 +12,8 @@ website:
     right:
       - text: "About Me"
         href: resume/index.qmd
+      - text: "Research"
+        href: research/index.qmd
       - text: "Portfolio"
         href: portfolio/index.qmd
     
