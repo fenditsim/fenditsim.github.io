@@ -7,7 +7,8 @@ format:
 ---
 
 ## Experience
-::::::: item-box
+
+:::::: item-box
 ::: item-title
 Independent Researcher
 :::
@@ -19,7 +20,7 @@ August 2025 - Current
 ::: item-description
 Led [independent research](../research/working-papers/index.qmd) examining the complex relationship between humans and GenAI with AI Impact Assessment, Adoption Strategy and Ethical & Responsible AI Implementation.
 :::
-:::::::
+::::::
 
 ::::::: item-box
 ::: item-title
@@ -71,9 +72,9 @@ September 2024 - February 2025
 :::
 
 ::: item-description
-- Led the successful coordination of a comprehensive personal branding and online presence workshop, bringing together professionals to enhance their digital footprint and career development opportunities.
+-   Led the successful coordination of a comprehensive personal branding and online presence workshop, bringing together professionals to enhance their digital footprint and career development opportunities.
 
-- Delivered ongoing strategic counsel to ensure initiatives and activities remain aligned with the society’s annual goals, contributing to sustained organizational growth and impact.
+-   Delivered ongoing strategic counsel to ensure initiatives and activities remain aligned with the society’s annual goals, contributing to sustained organizational growth and impact.
 :::
 :::::::
 
@@ -109,11 +110,11 @@ January 2025 - January 2025
 :::
 
 ::: item-description
-- Spearheaded the complete redesign and rebuilding of EGUK’s official website, leveraging modern web development tools including Astro for enhanced performance and static site generation
+-   Spearheaded the complete redesign and rebuilding of EGUK’s official website, leveraging modern web development tools including Astro for enhanced performance and static site generation
 
-- Managed version control and collaboration through Github, ensuring efficient development workflow and code maintenance
+-   Managed version control and collaboration through Github, ensuring efficient development workflow and code maintenance
 
-- Delivered an improved web presence that enhanced the organization’s digital footprint and user experience
+-   Delivered an improved web presence that enhanced the organization’s digital footprint and user experience
 :::
 :::::::
 
@@ -167,11 +168,11 @@ July 2022 – September 2023
 :::
 
 ::: item-description
-Assisted President with strategic goals setting for the society
+- Assisted President with strategic goals setting for the society
 
-Worked directly within Heads of both units and members to build better engagement and collaborations
+- Worked directly within Heads of both units and members to build better engagement and collaborations
 
-Provided advice on Intervention Design for Nudge Unit team projects
+- Provided advice on Intervention Design for Nudge Unit team projects
 :::
 :::::::
 
@@ -225,15 +226,16 @@ October 2017 – October 2018
 :::
 
 ::: item-description
-- Conducted qualitative and quantitative research on end-of-term food wastage in a team of 6
+-   Conducted qualitative and quantitative research on end-of-term food wastage in a team of 6
 
-- Formulated environmental nudge proposal to reduce food wastage
+-   Formulated environmental nudge proposal to reduce food wastage
 
-- Presented proposal to a panel of stakeholders, including lecturers and university estate staff
+-   Presented proposal to a panel of stakeholders, including lecturers and university estate staff
 :::
 :::::::
 
 ## Education
+
 ::::::: item-box
 ::: item-title
 PhD in Behavioural Science
@@ -248,11 +250,11 @@ September 2020 - February 2025
 :::
 
 ::: item-description
--  Designed lab experiment in oTree with Python to understand coordination in various social interactions such as noncompliance detection and prevention in one-off interactions, as well as turn-taking behavior in repeated interactions
+-   Designed lab experiment in oTree with Python to understand coordination in various social interactions such as noncompliance detection and prevention in one-off interactions, as well as turn-taking behavior in repeated interactions
 
--  Discussed theoretically computation of bargaining power when a bargaining procedure is present based on [Virtual Bargaining](https://doi.org/10.1098/rstb.2013.0487)
+-   Discussed theoretically computation of bargaining power when a bargaining procedure is present based on [Virtual Bargaining](https://doi.org/10.1098/rstb.2013.0487)
 
--  Conducted quantitative analysis with R
+-   Conducted quantitative analysis with R
 :::
 :::::::
 
@@ -270,13 +272,13 @@ September 2019 - August 2020
 :::
 
 ::: item-description
-- Designed lab experiment in oTree with Python to explore human cooperative behaviour in a two-agent repeated interaction
+-   Designed lab experiment in oTree with Python to explore human cooperative behaviour in a two-agent repeated interaction
 
--  Conducted quantitative analysis with R
+-   Conducted quantitative analysis with R
 :::
 :::::::
 
-::::::: item-box
+:::::: item-box
 ::: item-title
 BBA in Applied Economics
 :::
@@ -288,9 +290,9 @@ Hong Kong Baptist University
 ::: item-year
 September 2015 - August 2017
 :::
-:::::::
+::::::
 
-::::::: item-box
+:::::: item-box
 ::: item-title
 Pembroke King’s Programme 2016
 :::
@@ -302,9 +304,9 @@ University of Cambridge
 ::: item-year
 June 2016 - August 2016
 :::
-:::::::
+::::::
 
-::::::: item-box
+:::::: item-box
 ::: item-title
 English Immersion Programme
 :::
@@ -316,9 +318,9 @@ The University of Queensland
 ::: item-year
 June 2014 - August 2014
 :::
-:::::::
+::::::
 
-::::::: item-box
+:::::: item-box
 ::: item-title
 Associate Degree Programme, Associate of Science, Professional Accountancy
 :::
@@ -330,11 +332,11 @@ Hong Kong Baptist University
 ::: item-year
 September 2013 - August 2015
 :::
-:::::::
+::::::
 
 ## Skills
 
-::::::: item-box
+::::: item-box
 ::: item-title
 R
 :::
@@ -350,9 +352,9 @@ R
 -   Machine Learning
 -   Running with Large-Language Models
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Python
 :::
@@ -367,9 +369,9 @@ Python
 -   Langchain
 -   crewai
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Git
 :::
@@ -378,9 +380,9 @@ Git
 -   Version Control with repository
 -   Website Deployment (with Shiny (Shinylive) and Quarto)
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 SQL
 :::
@@ -390,9 +392,9 @@ SQL
 -   Aggregate Functions
 -   Connecting Tables
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Matlab
 :::
@@ -402,9 +404,9 @@ Matlab
 -   Data Visualization
 -   Simulation (Agent-Based Modelling)
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Stata
 :::
@@ -415,9 +417,9 @@ Stata
 -   Regression Analysis
 -   Data Visualization
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Mplus
 :::
@@ -427,9 +429,9 @@ Mplus
 -   Data Analysis such as Structural Equation Modelling
 -   Connecting with R
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 SPSS
 :::
@@ -439,9 +441,9 @@ SPSS
 -   Statistical Analysis
 -   Data Visualization
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Astro
 :::
@@ -449,9 +451,9 @@ Astro
 ::: item-description
 -   Web Development with HTML, Javascript and CSS
 :::
-:::::::
+:::::
 
-::::::: item-box
+::::: item-box
 ::: item-title
 Microsoft software
 :::
@@ -461,4 +463,4 @@ Microsoft software
 -   PowerPoint
 -   Excel
 :::
-:::::::
+:::::
