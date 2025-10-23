@@ -62,6 +62,6 @@ with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=
 :::
 
 ::: paper-description
-In this paper, we propose a decision-making framework that facilitates knowledge workers for assigning tasks with Generative AI that is based on psychology of learning.
+In this paper, we propose a decision-making framework that facilitates learners for an effective task assignment with Generative AI that is based on psychology of learning.
 :::
 :::::::
