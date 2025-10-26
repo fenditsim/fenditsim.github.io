@@ -46,5 +46,8 @@ With this spending dashboard, I have a few questions about managing personal spe
 
 3.  Which is more effective for encouraging savings: personal or community reference points?\
     In this dashboard, I applied self-referencing in the comparison (current month's spending with average monthly spending of the 12 last months). One of the prevalent effect in reference-point literature is to comparing it with a community (e.g., you used 50% energy more than what your neighbours used in the last month in nudging energy-saving). To create such community-referencing effect, bank could make use of users' spending (in anonymous way) to nudge for personal spending. Yet, it seems to me that it would be better and beneficial for banks if users could also be nudged to invest more, with the money they could save up from this.
+
+Github repository: [link](https://github.com/fenditsim/personal-spending-dashboard)
 :::
+
 ![](/img/building-a-personal-spending-dashboard-with-shiny.png){fig-align="center"}

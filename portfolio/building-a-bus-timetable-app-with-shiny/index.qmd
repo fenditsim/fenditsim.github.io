@@ -68,5 +68,8 @@ I do not remember which option we chose anyway. At that time, of course, it woul
 MyWarwick app has a feature of showing bus arrivals time, but it seems to restrict on showing arrivals in some stops. Other alternatives such as Apple Maps and Google Maps work well. Recently I noticed that we can use CityMapper for checking bus arrival - an app I would recommend using as it works in other big cities in UK such as London (can't live without it as it shows how much a trip would cost for alternatives), Birmingham and Manchester.
 
 In the end, I am glad that I've made this app the way I envisioned! This bus timetable app is similar to a group of people back home creating a mobile app that shows real-time bus arrival. Honestly, theirs is way more advanced than mine!
+
+Github repository: [link](https://github.com/fenditsim/shiny-bus-timetable)
 :::
+
 ![](/img/building-a-bus-timetable-app-with-shiny.png){fig-align="center"}
