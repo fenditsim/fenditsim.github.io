@@ -40,7 +40,7 @@ CIA: A Prompt Framework Mitigating Sycophancy
 :::
 
 ::: paper-authors
-with Shantanu Sharma
+with [Shantanu Sharma](https://orcid.org/0009-0008-8914-9544)
 :::
 
 ::: paper-description
