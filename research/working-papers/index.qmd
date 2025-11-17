@@ -15,7 +15,7 @@ format:
 
 ::::::: paper-box
 ::: paper-title
-AI as Part of Self
+AI as Part of the Self: Rethinking Human–AI Coordination, Control, and Identity
 :::
 
 ::: paper-year
@@ -27,6 +27,7 @@ with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=
 :::
 
 ::: paper-description
+The "AI as Part of the Self" framework reconceptualizes AI not merely as a tool or agent but as an extension of human cognition.
 :::
 :::::::
 
