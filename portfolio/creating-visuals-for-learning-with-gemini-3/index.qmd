@@ -4,84 +4,89 @@ author: "Fendi Tsim"
 format:
   html:
     toc: true
-date: "2025-12-01"
+date: "2025-12-02"
 ---
 
 ::: justify
 ### Introduction
+
 In this post, I am going to illustrate, and share my thoughts about, how to create visuals for learning with Google's Gemini 3. This is inspired by a Google Deepmind's YouTube [video](https://www.youtube.com/watch?v=MZCpgTi-Iys) that turns a research paper into an interactive website:
 
 {{< video https://www.youtube.com/watch?v=MZCpgTi-Iys >}}
 
 This is the prompt used in the video (see below):
 
-> I want to learn about the [CONCEPT]. Create beautiful, elegant 3D interactive visuals that explain it. The app should be in light mode, with great graphic design. It should be a single block of code that I can open in [BROWSER].     
+> I want to learn about the \[CONCEPT\]. Create beautiful, elegant 3D interactive visuals that explain it. The app should be in light mode, with great graphic design. It should be a single block of code that I can open in \[BROWSER\].
 
 Replacing the placeholder `[CONCEPT]` with a concept you are interested in learning, and `[BROWSER]` with name of a browser you prefer.
 
 As we would like to see the canvas with our smartphone, and often we would like to understand a concept via interaction, this is the updated version of the prompt:
 
-> I want to learn about the [CONCEPT]. Create beautiful, elegant 3D interactive visuals that explain it. The app should be in light mode, with great graphic design. It should be a single block of code that I can open in [BROWSER]. Make sure it’s mobile browser friendly, and at the end of it I can get a taste of what it is.
+> I want to learn about the \[CONCEPT\]. Create beautiful, elegant 3D interactive visuals that explain it. The app should be in light mode, with great graphic design. It should be a single block of code that I can open in \[BROWSER\]. Make sure it’s mobile browser friendly, and at the end of it I can get a taste of what it is.
 
 ### Examples
+
 Here are a few great examples I've created recently.
 
 #### Game Theory
--  Nash Bargaining Solution (Nash, 1950): [https://gemini.google.com/share/6d4f90d927e0](https://gemini.google.com/share/6d4f90d927e0)
 
--  The Prisoner's Dilemma: [https://gemini.google.com/share/097564b720c1](https://gemini.google.com/share/097564b720c1)
+-   Nash Bargaining Solution (Nash, 1950): [link](https://gemini.google.com/share/923036a599a7)
 
--  King of Diamonds game in Alice in the Borderland (a repeated 'beauty contest' or 'guessing two thirds of the average game'): [https://gemini.google.com/share/1cf5b388fbb2](https://gemini.google.com/share/1cf5b388fbb2)
+-   The Prisoner's Dilemma: [link](https://gemini.google.com/share/097564b720c1)
 
--  The Traitors game (British TV series): [https://gemini.google.com/share/a1fdf3754621](https://gemini.google.com/share/a1fdf3754621)
+-   King of Diamonds game in Alice in the Borderland (a repeated 'beauty contest' or 'guessing two thirds of the average game'): [link](https://gemini.google.com/share/1cf5b388fbb2)
+
+-   The Traitors game (British TV series): [link](https://gemini.google.com/share/a1fdf3754621)
 
 #### Psychology
--  Virtual Bargaining (Misyak & Chater, 2014): [https://gemini.google.com/share/b6b92bbe6485](https://gemini.google.com/share/b6b92bbe6485)
 
--  The Necker cube: [https://gemini.google.com/share/b15d0ef455ed](https://gemini.google.com/share/b15d0ef455ed)
+-   Virtual Bargaining (Misyak & Chater, 2014): [link](https://gemini.google.com/share/b6b92bbe6485)
 
--  The Müller-Lyer Illusion: [https://gemini.google.com/share/713757da899f](https://gemini.google.com/share/713757da899f)
+-   The Necker cube: [link](https://gemini.google.com/share/b15d0ef455ed)
 
--  Impossible Geometry like Penrose triangle: [https://gemini.google.com/share/b649e7d49c33](https://gemini.google.com/share/b649e7d49c33)
+-   The Müller-Lyer Illusion: [link](https://gemini.google.com/share/713757da899f)
 
+-   Impossible Geometry like Penrose triangle: [link](https://gemini.google.com/share/b649e7d49c33)
 
 #### Social Science
--  Gerrymandering: [https://gemini.google.com/share/ec9db20cc294](https://gemini.google.com/share/ec9db20cc294)
 
--  Model of Segregation (Schelling, 1969): [https://gemini.google.com/share/61324ece6571](https://gemini.google.com/share/61324ece6571)
+-   Gerrymandering: [link](https://gemini.google.com/share/ec9db20cc294)
+
+-   Model of Segregation (Schelling, 1969): [link](https://gemini.google.com/share/61324ece6571)
 
 #### Philosophy and Ethics
--  Socratic Questioning: [https://gemini.google.com/share/95039172b187](https://gemini.google.com/share/95039172b187)
 
--  The Trolley Dilemma: [https://gemini.google.com/share/a751fe4caff1](https://gemini.google.com/share/a751fe4caff1)
+-   Socratic Questioning: [link](https://gemini.google.com/share/95039172b187)
 
+-   The Trolley Dilemma: [link](https://gemini.google.com/share/a751fe4caff1)
 
 ### Discussion
+
 As you try some of the examples above, you realise some similarities:
 
-1. They are interactive, meaning that a user (or a learner) can play around, and get a sense of what really means
+1.  They are interactive, meaning that a user (or a learner) can play around, and get a sense of what really means
 
-2. Most visuals illustrate mentally complex concepts. For instance, most examples under Psychology are related to 'Psychology of Illusion' - where one might often conclude differently based on personal perceptions.
+2.  Most visuals illustrate mentally complex concepts. For instance, most examples under Psychology are related to 'Psychology of Illusion' - where one might often conclude differently based on personal perceptions.
 
 I think this feature offers valuable opportunities for educators to students in the following scenarios:
 
--  Turning mentally abstract concepts into visual: Like mathematics (Nash Bargaining Solution), psychology (virtual bargaining) and arts (Van Vogh), physics (how does light deflect), biology (how does our eye work), philosophy? (The sky is the limit)
+-   Turning mentally abstract concepts into visual: Like mathematics (Nash Bargaining Solution), psychology (virtual bargaining) and arts (Van Vogh), physics (how does light deflect), biology (how does our eye work), philosophy? (The sky is the limit)
 
--  Great for perspective taking (or putting oneself into other's shoes): understanding how duck and hare can be perceived, how dylxesic people read, how colour blinded people view the world 
+-   Great for perspective taking (or putting oneself into other's shoes): understanding how duck and hare can be perceived, how dylxesic people read, how colour blinded people view the world
 
-Importantly, these abstract concepts can often be interpreted differently, implying that what Gemini illustrated visually offers one perspective. 
+Importantly, these abstract concepts can often be interpreted differently, implying that what Gemini illustrated visually offers one perspective.
 
 With that said, when to introduce these visuals (before or after introducing a mentally abstract concept) matters. If students were introduced these visuals before they imagine how a concept should look like, these visuals offer 'an anchor' of how such concept should look like. In other words, these visuals would replace their imagination and cognitive ability when they learn a concept this way.
 
- If, instead, educators introduce these visuals after introducing a concept (treating these as an aid or thinking 'scaffold'), students could make great use of their imagination while leveraging benefits that these AI tools offers substantially.
+If, instead, educators introduce these visuals after introducing a concept (treating these as an aid or thinking 'scaffold'), students could make great use of their imagination while leveraging benefits that these AI tools offers substantially.
 
 ### Reference
+
 Misyak, J. B., & Chater, N. (2014). Virtual bargaining: a theory of social decision-making. Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1655), 20130487.
 
 Nash, J. F. (1950). The bargaining problem. Econometrica, 18(2), 155-162.
 
 Schelling, T. C. (1969). Models of segregation. The American economic review, 59(2), 488-493.
-
 :::
 
 ![](/img/creating-visuals-for-learning-with-gemini-3.png){fig-align="center"}
