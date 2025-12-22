@@ -48,21 +48,3 @@ with [Shantanu Sharma](https://orcid.org/0009-0008-8914-9544)
 The CIA Framework is a structured approach designed to enhance interactions with Large Language Models (LLMs) where users can uncover deeper insights, identify biases, and arrive at more nuanced understandings of complex topics.
 :::
 :::::::
-
-::::::: paper-box
-::: paper-title
-SCAN: A Decision Making Framework for Task Assignment with General AI
-:::
-
-::: paper-year
-2025
-:::
-
-::: paper-authors
-with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=en&oi=ao)
-:::
-
-::: paper-description
-In this paper, we propose a decision-making framework that facilitates learners for an effective task assignment with Generative AI that is based on psychology of learning.
-:::
-:::::::

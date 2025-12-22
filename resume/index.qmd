@@ -19,6 +19,10 @@ August 2025 - Current
 
 ::: item-description
 Led [independent research](../research/working-papers/index.qmd) examining the complex relationship between humans and GenAI with AI Impact Assessment, Adoption Strategy and Ethical & Responsible AI Implementation.
+
+Recent Work:
+
+-   *SCAN: A Decision-Making Framework for Task Assignment with Generative AI* (Available as [a preprint](https://osf.io/preprints/psyarxiv/g5fd8_v1) on PsyArXiv)
 :::
 ::::::
 
@@ -168,11 +172,11 @@ July 2022 – September 2023
 :::
 
 ::: item-description
-- Assisted President with strategic goals setting for the society
+-   Assisted President with strategic goals setting for the society
 
-- Worked directly within Heads of both units and members to build better engagement and collaborations
+-   Worked directly within Heads of both units and members to build better engagement and collaborations
 
-- Provided advice on Intervention Design for Nudge Unit team projects
+-   Provided advice on Intervention Design for Nudge Unit team projects
 :::
 :::::::
 

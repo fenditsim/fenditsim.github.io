@@ -12,6 +12,25 @@ format:
 ---
 
 ## Publications
+
+::::::: paper-box
+::: paper-title
+(Preprint) [SCAN: A Decision-Making Framework for Task Assignment with Generative AI](https://osf.io/preprints/psyarxiv/g5fd8_v1)
+:::
+
+::: paper-year
+2025
+:::
+
+::: paper-authors
+with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=en&oi=ao)
+:::
+
+::: paper-description
+We introduce SCAN-a human-centric decision-making framework to facilitate learners for an effective task assignment with Generative AI based on psychology theories such as Vygotsky’s Zone of Proximal Development and Metacognition. In SCAN, we systematize and formalize AI-human interaction by introducing a task identification approach with four ''sub-zones'': Substitute, Complement, Aid, and Non-negotiable. After describing the four sub-zones, we demonstrate how SCAN framework can be applied for knowledge workers in the workplace and students in the education to "scan" their use of Generative AI. We then discuss how such framework can be related to cognitive offloading, sycophancy, three decision making modes in human-AI interactions(automation, augmentation, and collaboration), as well as future of work such as upskilling and deskilling. We propose that SCAN offers a great starting point before discussing whether Generative AI complements or replaces our abilities when completing a task, with a general objective of sustaining lifelong learning, and a specific goal of reaching hybrid intelligence.
+:::
+:::::::
+
 :::::::: paper-box
 ::: paper-title
 PhD Thesis: [An experimental investigation of virtual bargaining in one-shot and repeated games](https://wrap.warwick.ac.uk/id/eprint/191656/1/WRAP_Theses_Tsim_2024.pdf)
@@ -51,6 +70,7 @@ Individual Chapters:
 -   Chapter 1: Introduction
 
 -   Chapter 2: How does Inspection Cost affect choices in the Inspection Game?
+
     <details>
 
     <summary>Abstract</summary>
@@ -62,6 +82,7 @@ Individual Chapters:
     </details>
 
 -   Chapter 3: Virtual Bargaining with Asymmetric Bargaining Power
+
     <details>
 
     <summary>Abstract</summary>
@@ -73,6 +94,7 @@ Individual Chapters:
     </details>
 
 -   Chapter 4: Communication as Noncompliance Prevention in the Inspection Game
+
     <details>
 
     <summary>Abstract</summary>
@@ -84,6 +106,7 @@ Individual Chapters:
     </details>
 
 -   Chapter 5: Exploring Reciprocation in the Alternation Game
+
     <details>
 
     <summary>Abstract</summary>
