@@ -32,6 +32,7 @@ filters:
 
 format:
   html:
+    include-in-header: header.html
     theme: journal
     css: styles.css
     toc: false
