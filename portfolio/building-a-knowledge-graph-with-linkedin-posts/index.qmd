@@ -1,0 +1,28 @@
+---
+title: "Building a Knowledge Graph with my LinkedIn posts"
+author: "Fendi Tsim"
+format:
+  html:
+    toc: true
+date: "2025-12-30"
+---
+
+::: justify
+### Introduction
+
+In this post, I present an interactive knowledge graph that is based on 48 linkedin posts that are related to academic papers and report I've read, as well as shared my thoughts with in 2025.
+
+<iframe src="https://tsim.shinyapps.io/fendi-lips/" width="100%" height="800px" style="border: 1px solid #e5e5e5; border-radius: 8px;" title="Knowledge Graph">
+
+</iframe>
+
+[*Hosted on shinyapps.io*](https://tsim.shinyapps.io/fendi-lips/)
+
+Click one of the nodes in the graph, and you will see how it links with other nodes based on common hashtags I used in linkedin posts.
+
+Double-clicking a node shows you the name of related paper/report, what my post and hashtags were, as well as links to that paper/report and related linkedin posts.
+
+Enjoy!
+:::
+
+![](/img/building-a-knowledge-graph-with-linkedin-posts.png){fig-align="center"}
