@@ -4,7 +4,7 @@ author: "Fendi Tsim"
 format:
   html:
     toc: true
-date: "2025-12-02"
+date: "2026-01-01"
 ---
 
 ::: justify
@@ -52,7 +52,7 @@ Here are a few great examples I've created recently.
 
 -   Gerrymandering: [link](https://gemini.google.com/share/ec9db20cc294)
 
--   Model of Segregation (Schelling, 1969): [link](https://gemini.google.com/share/61324ece6571)
+-   Model of Segregation (Schelling, 1969): [link](https://gemini.google.com/share/61324ece6571).
 
 #### Philosophy and Ethics
 
@@ -66,7 +66,7 @@ As you try some of the examples above, you realise some similarities:
 
 1.  They are interactive, meaning that a user (or a learner) can play around, and get a sense of what really means
 
-2.  Most visuals illustrate mentally complex concepts. For instance, most examples under Psychology are related to 'Psychology of Illusion' - where one might often conclude differently based on personal perceptions.
+2.  Most visuals illustrate mentally complex concepts. For instance, most examples under Psychology are related to 'Psychology of Illusion' - where one might often conclude differently based on personal perceptions. 
 
 I think this feature offers valuable opportunities for educators to students in the following scenarios:
 
@@ -76,9 +76,11 @@ I think this feature offers valuable opportunities for educators to students in 
 
 Importantly, these abstract concepts can often be interpreted differently, implying that what Gemini illustrated visually offers one perspective.
 
-With that said, when to introduce these visuals (before or after introducing a mentally abstract concept) matters. If students were introduced these visuals before they imagine how a concept should look like, these visuals offer 'an anchor' of how such concept should look like. In other words, these visuals would replace their imagination and cognitive ability when they learn a concept this way.
+With that said, when to introduce these visuals (before or after introducing a mentally abstract concept) matters. If students were introduced these visuals before they imagine how a concept should look like, these visuals offer 'an anchor' of how such concept should look like. Take the Schelling's Model of Segregation as an interactive simulation visual [link](https://gemini.google.com/share/00a7469c3a4e) as an example. It provides message boxes as an interactive guide that faciliates users to navigate through the concepts step-by-step.
 
-If, instead, educators introduce these visuals after introducing a concept (treating these as an aid or thinking 'scaffold'), students could make great use of their imagination while leveraging benefits that these AI tools offers substantially.
+This approach, however, implies that these visuals would replace their imagination and cognitive ability when they learn a concept this way.
+
+If, instead, educators introduce these visuals after introducing a concept (treating these as an aid or thinking 'scaffold'), students could make great use of their imagination while leveraging benefits that these AI tools offers substantially. 
 
 ### Reference
 
