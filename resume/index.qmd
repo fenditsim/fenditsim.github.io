@@ -8,463 +8,307 @@ format:
 
 ## Experience
 
-:::::: item-box
-::: item-title
-Independent Researcher
+::: {.timeline}
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">August 2025 - Current</div>
+  <details class="timeline-content">
+    <summary>Independent Researcher</summary>
+    <ul>
+      <li>Led [independent research](../research/working-papers/index.qmd) examining the complex relationship between humans and GenAI with AI Impact Assessment, Adoption Strategy and Ethical & Responsible AI Implementation.</li>
+      <li>Recent work including *SCAN: A Decision-Making Framework for Task Assignment with Generative AI* (Available as [a preprint](https://osf.io/preprints/psyarxiv/g5fd8_v1) on PsyArXiv)</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">August 2025 - October 2025</div>
+  <details class="timeline-content">
+    <summary>Report External Reviewer at [Behavioural Insights Team](https://www.bi.team)</summary>
+    <ul>
+      <li>Served as an external subject matter expert reviewing two sections ('Augment' and 'Align') of a comprehensive report: [AI and Human Behaviour](https://www.bi.team/publications/ai-and-human-behaviour/).</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">August 2025 - October 2025</div>
+  <details class="timeline-content">
+    <summary>Project External Advisor at [UK Health Security Agency](https://research.ukhsa.gov.uk/our-research/)</summary>
+    <ul>
+      <li>Advised on how LLMs could be used to support the application of behavioural science in public health practice.</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">September 2024 - February 2025</div>
+  <details class="timeline-content">
+    <summary>Advisor at [Warwick Business School PhD Students Society](https://www.wbs.ac.uk/blogs/student/doctoral/wbs-phd-student-society-building-community-support-and-connection/)</summary>
+    <ul>
+      <li>Led the successful coordination of a comprehensive personal branding and online presence workshop, bringing together professionals to enhance their digital footprint and career development opportunities.</li>
+      <li>Delivered ongoing strategic counsel to ensure initiatives and activities remain aligned with the society’s annual goals, contributing to sustained organizational growth and impact.</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">January 2025 - January 2025</div>
+  <details class="timeline-content">
+    <summary>Work Experience at [Cowry Consulting](https://www.cowryconsulting.com)</summary>
+    <ul>
+      <li>A two-week work experience that involved conducting literature review, and addressing client’s challenges by leveraging behavioural science principles.</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">April 2024 - October 2024</div>
+  <details class="timeline-content">
+    <summary>Webmaster at [EGUK](http://www.eguk.org.uk)/[CGVC](https://cgvc.org.uk)</summary>
+    <ul>
+      <li>Spearheaded the complete redesign and rebuilding of EGUK’s official website, leveraging modern web development tools including Astro for enhanced performance and static site generation.</li>
+      <li>Managed version control and collaboration through Github, ensuring efficient development workflow and code maintenance</li>
+      <li>Delivered an improved web presence that enhanced the organization’s digital footprint and user experience</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">February 2024 - August 2024</div>
+  <details class="timeline-content">
+    <summary>Co-President at [Warwick Business School PhD Students Society](https://www.wbs.ac.uk/blogs/student/doctoral/wbs-phd-student-society-building-community-support-and-connection/)</summary>
+    <ul>
+      <li>Assisted President with strategic goals setting for the society.</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">November 2022 – January 2024</div>
+  <details class="timeline-content">
+    <summary>Lab Assistant at [Department of Psychology, University of Warwick](https://warwick.ac.uk/fac/sci/psych/bes/course-overview)</summary>
+    <ul>
+      <li>Undertook teaching tasks within a class, seminar, and tutorial or equivalent context in order to progress the student learning about psychological theories and models with MATLAB</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">July 2022 – September 2023</div>
+  <details class="timeline-content">
+    <summary>Vice President at [Warwick Behavioural Insights Team](https://warwick.ac.uk/research/spotlights/behaviour/news-events/wbit/)</summary>
+    <ul>
+      <li>Assisted President with strategic goals setting for the society</li>
+      <li>Worked directly within Heads of both units and members to build better engagement and collaborations</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">January 2020 – March 2020</div>
+  <details class="timeline-content">
+    <summary>Lab Assistant at [Behavioural Science Group, Warwick Business School](https://www.wbs.ac.uk/research/subject-groups/bs/)</summary>
+    <ul>
+      <li>Undertook teaching tasks within a class, seminar, and tutorial or equivalent context in order to progress the student learning about Big Data and R</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">May 2019 – August 2019</div>
+  <details class="timeline-content">
+    <summary>Research Assistant at [Behavioural Science Group, Warwick Business School](https://www.wbs.ac.uk/research/subject-groups/bs/)</summary>
+    <ul>
+      <li>Conducted literature review for a working paper and designed lab experiment code in oTree with Python.</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">October 2017 – October 2018</div>
+  <details class="timeline-content">
+    <summary>Behavioural Nudge Analyst and Founding Member at [Warwick Behavioural Insights Team](https://warwick.ac.uk/research/spotlights/behaviour/news-events/wbit/)</summary>
+    <ul>
+      <li>Conducted qualitative and quantitative research on end-of-term food wastage in a team of 6</li>
+      <li>Formulated environmental nudge proposal to reduce food wastage</li>
+      <li>Presented proposal to a panel of stakeholders, including lecturers and university estate staff</li>
+    </ul>
+  </details>
+</div>
+
 :::
-
-::: item-year
-August 2025 - Current
-:::
-
-::: item-description
-Led [independent research](../research/working-papers/index.qmd) examining the complex relationship between humans and GenAI with AI Impact Assessment, Adoption Strategy and Ethical & Responsible AI Implementation.
-
-Recent Work:
-
--   *SCAN: A Decision-Making Framework for Task Assignment with Generative AI* (Available as [a preprint](https://osf.io/preprints/psyarxiv/g5fd8_v1) on PsyArXiv)
-:::
-::::::
-
-::::::: item-box
-::: item-title
-Report External Reviewer
-:::
-
-::: item-location
-[Behavioural Insights Team](https://www.bi.team)
-:::
-
-::: item-year
-August 2025 - October 2025
-:::
-
-::: item-description
-Served as an external subject matter expert reviewing two sections ('Augment' and 'Align') of a comprehensive report: [AI and Human Behaviour](https://www.bi.team/publications/ai-and-human-behaviour/).
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Project External Advisor
-:::
-
-::: item-location
-[UK Health Security Agency](https://research.ukhsa.gov.uk/our-research/)
-:::
-
-::: item-year
-August 2025 - October 2025
-:::
-
-::: item-description
-Advised on how LLMs could be used to support the application of behavioural science in public health practice.
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Advisor
-:::
-
-::: item-location
-[Warwick Business School PhD Students Society](https://www.wbs.ac.uk/blogs/student/doctoral/wbs-phd-student-society-building-community-support-and-connection/)
-:::
-
-::: item-year
-September 2024 - February 2025
-:::
-
-::: item-description
--   Led the successful coordination of a comprehensive personal branding and online presence workshop, bringing together professionals to enhance their digital footprint and career development opportunities.
-
--   Delivered ongoing strategic counsel to ensure initiatives and activities remain aligned with the society’s annual goals, contributing to sustained organizational growth and impact.
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Work Experience
-:::
-
-::: item-location
-[Cowry Consulting](https://www.cowryconsulting.com)
-:::
-
-::: item-year
-January 2025 - January 2025
-:::
-
-::: item-description
-A two-week work experience that involved conducting literature review, and addressing client’s challenges by leveraging behavioural science principles.
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Webmaster
-:::
-
-::: item-location
-[EGUK](http://www.eguk.org.uk)/[CGVC](https://cgvc.org.uk)
-:::
-
-::: item-year
-January 2025 - January 2025
-:::
-
-::: item-description
--   Spearheaded the complete redesign and rebuilding of EGUK’s official website, leveraging modern web development tools including Astro for enhanced performance and static site generation
-
--   Managed version control and collaboration through Github, ensuring efficient development workflow and code maintenance
-
--   Delivered an improved web presence that enhanced the organization’s digital footprint and user experience
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Co-President
-:::
-
-::: item-location
-[Warwick Business School PhD Students Society](https://www.wbs.ac.uk/blogs/student/doctoral/wbs-phd-student-society-building-community-support-and-connection/)
-:::
-
-::: item-year
-February 2024 - August 2024
-:::
-
-::: item-description
-Assisted President with strategic goals setting for the society.
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Lab Assistant
-:::
-
-::: item-location
-[Department of Psychology, University of Warwick](https://warwick.ac.uk/fac/sci/psych/bes/course-overview)
-:::
-
-::: item-year
-November 2022 – January 2024
-:::
-
-::: item-description
-Undertook teaching tasks within a class, seminar, and tutorial or equivalent context in order to progress the student learning about psychological theories and models with MATLAB
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Vice President and Experiment Design Advisor
-:::
-
-::: item-location
-[Warwick Behavioural Insights Team](https://warwick.ac.uk/research/spotlights/behaviour/news-events/wbit/)
-:::
-
-::: item-year
-July 2022 – September 2023
-:::
-
-::: item-description
--   Assisted President with strategic goals setting for the society
-
--   Worked directly within Heads of both units and members to build better engagement and collaborations
-
--   Provided advice on Intervention Design for Nudge Unit team projects
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Lab Assistant
-:::
-
-::: item-location
-[Behavioural Science Group, Warwick Business School](https://www.wbs.ac.uk/research/subject-groups/bs/)
-:::
-
-::: item-year
-January 2020 – March 2020
-:::
-
-::: item-description
-Undertook teaching tasks within a class, seminar, and tutorial or equivalent context in order to progress the student learning about Big Data and R
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Research Assistant
-:::
-
-::: item-location
-[Behavioural Science Group, Warwick Business School](https://www.wbs.ac.uk/research/subject-groups/bs/)
-:::
-
-::: item-year
-May 2019 – August 2019
-:::
-
-::: item-description
-Conducted literature review for a working paper and designed lab experiment code in oTree with Python.
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-Behavioural Nudge Analyst and Founding Member
-:::
-
-::: item-location
-[Warwick Behavioural Insights Team](https://warwick.ac.uk/research/spotlights/behaviour/news-events/wbit/)
-:::
-
-::: item-year
-October 2017 – October 2018
-:::
-
-::: item-description
--   Conducted qualitative and quantitative research on end-of-term food wastage in a team of 6
-
--   Formulated environmental nudge proposal to reduce food wastage
-
--   Presented proposal to a panel of stakeholders, including lecturers and university estate staff
-:::
-:::::::
 
 ## Education
 
-::::::: item-box
-::: item-title
-PhD in Behavioural Science
+::: {.timeline}
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">September 2020 - February 2025</div>
+  <details class="timeline-content">
+    <summary>PhD in Behavioural Science</summary>
+    <p>*Warwick Business School, University of Warwick*</p>
+    <ul>
+      <li>Designed lab experiment in oTree with Python to understand coordination in various social interactions such as noncompliance detection and prevention in one-off interactions, as well as turn-taking behavior in repeated interactions</li>
+      <li>Discussed theoretically computation of bargaining power when a bargaining procedure is present based on [Virtual Bargaining](https://doi.org/10.1098/rstb.2013.0487)</li>
+      <li>Conducted quantitative analysis with R</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">September 2019 - August 2020</div>
+  <details class="timeline-content">
+    <summary>MPhil in Business and Management</summary>
+    <p>*Warwick Business School, University of Warwick*</p>
+    <ul>
+      <li>Designed lab experiment in oTree with Python to explore human cooperative behaviour in a two-agent repeated interaction</li>
+      <li>Conducted quantitative analysis with R</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">September 2017 - August 2018</div>
+  <details class="timeline-content">
+    <summary>MSc in Behavioural Economics and Science (Economics Track)</summary>
+    <p>*University of Warwick*</p>
+    <ul>
+      <li>Designed lab experiment in oTree with Python to test experimentally[Virtual Bargaining](https://doi.org/10.1098/rstb.2013.0487) in a finitely repeated social interaction</li>
+      <li>Conducted quantitative analysis with R</li>
+    </ul>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">September 2015 - August 2017</div>
+  <details class="timeline-content">
+    <summary>BBA in Applied Economics</summary>
+    <p>*Hong Kong Baptist University*</p>
+  </details>
+</div>
+
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">June 2016 - August 2016</div>
+  <details class="timeline-content">
+    <summary>Pembroke King’s Programme 2016</summary>
+    <p>*University of Cambridge*</p>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">June 2014 - August 2014</div>
+  <details class="timeline-content">
+    <summary>English Immersion Programme</summary>
+    <p>*The University of Queensland*</p>
+  </details>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-date">September 2013 - August 2015</div>
+  <details class="timeline-content">
+    <summary>Associate Degree Programme, Associate of Science, Professional Accountancy</summary>
+    <p>*Hong Kong Baptist University*</p>
+  </details>
+</div>
 :::
 
-::: item-location
-Warwick Business School, University of Warwick
-:::
-
-::: item-year
-September 2020 - February 2025
-:::
-
-::: item-description
--   Designed lab experiment in oTree with Python to understand coordination in various social interactions such as noncompliance detection and prevention in one-off interactions, as well as turn-taking behavior in repeated interactions
-
--   Discussed theoretically computation of bargaining power when a bargaining procedure is present based on [Virtual Bargaining](https://doi.org/10.1098/rstb.2013.0487)
-
--   Conducted quantitative analysis with R
-:::
-:::::::
-
-::::::: item-box
-::: item-title
-MPhil in Business and Management
-:::
-
-::: item-location
-Warwick Business School, University of Warwick
-:::
-
-::: item-year
-September 2019 - August 2020
-:::
-
-::: item-description
--   Designed lab experiment in oTree with Python to explore human cooperative behaviour in a two-agent repeated interaction
-
--   Conducted quantitative analysis with R
-:::
-:::::::
-
-:::::: item-box
-::: item-title
-BBA in Applied Economics
-:::
-
-::: item-location
-Hong Kong Baptist University
-:::
-
-::: item-year
-September 2015 - August 2017
-:::
-::::::
-
-:::::: item-box
-::: item-title
-Pembroke King’s Programme 2016
-:::
-
-::: item-location
-University of Cambridge
-:::
-
-::: item-year
-June 2016 - August 2016
-:::
-::::::
-
-:::::: item-box
-::: item-title
-English Immersion Programme
-:::
-
-::: item-location
-The University of Queensland
-:::
-
-::: item-year
-June 2014 - August 2014
-:::
-::::::
-
-:::::: item-box
-::: item-title
-Associate Degree Programme, Associate of Science, Professional Accountancy
-:::
-
-::: item-location
-Hong Kong Baptist University
-:::
-
-::: item-year
-September 2013 - August 2015
-:::
-::::::
 
 ## Skills
 
-::::: item-box
-::: item-title
-R
-:::
+::: {.skills-grid}
 
-::: item-description
--   Statistical Analysis
--   Time Series Analysis
--   Data Visualization with ggplot2, Plotly and Leaflet
--   Web Development with Shiny and Quarto
--   Web scrapping
--   Creating package
--   Data Manipulation with dplyr, data.table
--   Machine Learning
--   Running with Large-Language Models
-:::
-:::::
+<details class="skill-badge">
+  <summary>{{< fa brands r-project >}} R</summary>
+  <ul>
+    <li>Statistical Analysis</li>
+    <li>Time Series Analysis</li>
+    <li>Data Visualization (ggplot2)</li>
+    <li>Large-Language Models</li>
+  </ul>
+</details>
 
-::::: item-box
-::: item-title
-Python
-:::
+<details class="skill-badge">
+  <summary>{{< fa brands python >}} Python</summary>
+  <ul>
+    <li>Web-based tasks (oTree)</li>
+    <li>Data Manipulation (Pandas)</li>
+    <li>Langchain & crewAI</li>
+    <li>Machine Learning</li>
+  </ul>
+</details>
 
-::: item-description
--   Conducting web-based interactive tasks with oTree
--   Data Manipulation with Pandas
--   Statistical Analysis
--   Data Visualization with Matplotlib
--   NumPy and SciPy
--   Machine Learning
--   Langchain
--   crewai
-:::
-:::::
+<details class="skill-badge">
+  <summary>{{< fa brands git-alt >}} Git</summary>
+  <ul>
+    <li>Version Control</li>
+    <li>Website Deployment</li>
+    <li>Quarto & Shiny</li>
+  </ul>
+</details>
 
-::::: item-box
-::: item-title
-Git
-:::
+<details class="skill-badge">
+  <summary>{{< fa database >}} SQL</summary>
+  <ul>
+    <li>Data Manipulation</li>
+    <li>Aggregate Functions</li>
+    <li>Connecting Tables</li>
+  </ul>
+</details>
 
-::: item-description
--   Version Control with repository
--   Website Deployment (with Shiny (Shinylive) and Quarto)
-:::
-:::::
+<details class="skill-badge">
+  <summary>{{< ai matlab >}} Matlab</summary>
+  <ul>
+    <li>Statistical Analysis</li>
+    <li>Data Visualization</li>
+    <li>Simulation (Agent-Based Modelling)</li>
+  </ul>
+</details>
 
-::::: item-box
-::: item-title
-SQL
-:::
+<details class="skill-badge">
+  <summary>{{< ai stata >}} Stata</summary>
+  <ul>
+    <li>Data Management</li>
+    <li>Statistical Analysis</li>
+    <li>Regression Analysis</li>
+    <li>Data Visualization</li>
+  </ul>
+</details>
 
-::: item-description
--   Data Manipulation
--   Aggregate Functions
--   Connecting Tables
-:::
-:::::
+<details class="skill-badge">
+  <summary><img rc="https://cdn.simpleicons.org/astro/FF5D01" width="16" height="16"> Astro</summary>
+  <ul>
+    <li>Web Development with HTML, Javascript and CSS</li>
+  </ul>
+</details>
 
-::::: item-box
-::: item-title
-Matlab
-:::
+<details class="skill-badge">
+  <summary>{{< fa brands microsoft >}} Microsoft software</summary>
+  <ul>
+    <li>Word</li>
+    <li>PowerPoint</li>
+    <li>Excel</li>
+  </ul>
+</details>
 
-::: item-description
--   Statistical Analysis
--   Data Visualization
--   Simulation (Agent-Based Modelling)
 :::
-:::::
-
-::::: item-box
-::: item-title
-Stata
-:::
-
-::: item-description
--   Data Management
--   Statistical Analysis
--   Regression Analysis
--   Data Visualization
-:::
-:::::
-
-::::: item-box
-::: item-title
-Mplus
-:::
-
-::: item-description
--   Data Management
--   Data Analysis such as Structural Equation Modelling
--   Connecting with R
-:::
-:::::
-
-::::: item-box
-::: item-title
-SPSS
-:::
-
-::: item-description
--   Data Management
--   Statistical Analysis
--   Data Visualization
-:::
-:::::
-
-::::: item-box
-::: item-title
-Astro
-:::
-
-::: item-description
--   Web Development with HTML, Javascript and CSS
-:::
-:::::
-
-::::: item-box
-::: item-title
-Microsoft software
-:::
-
-::: item-description
--   Word
--   PowerPoint
--   Excel
-:::
-:::::

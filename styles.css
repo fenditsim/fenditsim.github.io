@@ -13,19 +13,6 @@ th {
   text-align: justify
 }
 
-/* Hide button text on larger screens (desktop) */
-@media (min-width: 993px) {
-  .about-links .about-link .about-link-text {
-    display: none !important;
-  }
-}
-
-/* Show button text on smaller screens (mobile) */
-@media (max-width: 992px) {
-  .about-links .about-link .about-link-text {
-    display: inline !important;
-  }
-}
 
 .paper-box {
   background: white;
@@ -120,4 +107,184 @@ a.item-box-link {
   text-decoration: none;
   color: inherit;
   display: block;
+}
+
+/* Customization for External Links */
+/* 1. Target the container and make it the 'Single Box' */
+.about-links {
+  display: flex !important;
+  flex-direction: column !important; /* Stack them vertically */
+  gap: 0 !important;               /* Remove space between links inside the box */
+  border: 1px solid #dee2e6;       /* The single outer border */
+  border-radius: 8px;              /* Rounded corners for the box */
+  background-color: #ffffff;       /* White background for the box */
+  overflow: hidden;                /* Ensures link hovers stay inside rounded corners */
+  padding: 0 !important;           /* Reset padding */
+  margin-top: 20px;
+  margin-bottom: 30px; /* This fixes the mobile overlap issue */  
+  width: 100%;       /* Use the full width of the sidebar column */
+}
+
+/* 2. Style the individual links to look like list items */
+.about-link {
+  border: none !important;         /* Remove individual boxes */
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 12px 15px !important;
+  display: flex !important;        /* Help align icon and text */
+  align-items: center;
+  border-bottom: 1px solid #eee;   /* Add a subtle divider between items */
+  border-radius: 0 !important;     /* Remove individual rounding */
+  width: 100%;
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+/* 3. Remove the divider from the very last item */
+.about-link:last-child {
+  border-bottom: none !important;
+}
+
+/* 4. Add a hover effect for the list items */
+.about-link:hover {
+  background-color: #f8f9fa !important;
+  color: #ff0000ff !important;
+}
+
+/* Skills customization */
+/* The 3-column grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* On mobile, switch to 1 or 2 columns */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Style the clickable badge */
+.skill-badge {
+  background-color: #ffffffff;
+  border: 1px solid #ff0000ff;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  height: fit-content;
+}
+
+/* The "Header" of the badge */
+.skill-badge summary {
+  list-style: none; /* Hide default arrow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Add a custom plus/minus sign */
+.skill-badge summary::after {
+  content: ' +';
+  font-size: 0.8em;
+  margin-left: 10px;
+  color: #bbbbbbff;
+}
+
+.skill-badge[open] summary::after {
+  content: ' −';
+}
+
+/* Style the list inside */
+.skill-badge ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 0.9em;
+  text-align: left;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.skill-badge[open] {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  grid-column: span 1; /* Keeps it within its grid cell */
+}
+
+/* timeline customization */
+/* Container for the whole timeline */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  margin: 20px 0;
+  border-left: 2px solid #dee2e6; /* The vertical line */
+}
+
+/* The individual timeline entry */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* The "Points" on the timeline */
+.timeline-dot {
+  position: absolute;
+  left: -49px; /* Centers the dot on the line */
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background-color: #ff0000ff; /* Change to your brand color */
+  border: 3px solid #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Date styling */
+.timeline-date {
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* The clickable box */
+.timeline-content {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+.timeline-content summary {
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.timeline-content summary::after {
+  content: ' +';
+  font-size: 0.8em;
+  color: #ff0000ff;
+}
+
+.timeline-content[open] summary::after {
+  content: ' −';
+}
+
+.timeline-content[open] {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.timeline-content ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 0.95rem;
 }
