@@ -4,8 +4,8 @@ title: "What I've been working on"
 listing:
   sort: "date desc"
   type: grid
-  grid-columns: 2
+  grid-columns: 3
   categories: false
-  image-height: 360px
+  image-height: 180px
   fields: [image, title, reading-time]
 ---
