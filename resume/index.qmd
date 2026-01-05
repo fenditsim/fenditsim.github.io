@@ -21,6 +21,12 @@ January 2026 - Current
 
 <summary>Research Contributor at [Center for Behavioral Decisions](https://www.becisions.com/)</summary>
 
+<ul>
+
+<li>Conducting interdisciplinary research in human decision-making and cognitive modeling through remote collaboration with experts across behavioural science, psychology, and applied AI.</li>
+
+</ul>
+
 </details>
 :::::
 
