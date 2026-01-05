@@ -14,6 +14,21 @@ format:
 :::
 
 ::: timeline-date
+January 2026 - Current
+:::
+
+<details class="timeline-content">
+
+<summary>Research Contributor at [Center for Behavioral Decisions](https://www.becisions.com/)</summary>
+
+</details>
+:::::
+
+::::: timeline-item
+::: timeline-dot
+:::
+
+::: timeline-date
 August 2025 - Current
 :::
 
