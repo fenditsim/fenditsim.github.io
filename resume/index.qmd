@@ -471,6 +471,8 @@ September 2013 - August 2015
 
 <li>[Interactive simulations](../portfolio/creating-visuals-for-learning-with-gemini-3/index.qmd)</li>
 
+<li>[London Study Place Map](https://fenditsim.github.io/london-study-place-map/)</li>
+
 </ul>
 
 </details>
