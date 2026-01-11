@@ -108,7 +108,7 @@ a.paper-box-link {
 /* Red collapsible header bar with rough/sharp edges */
 details {
   margin-bottom: 10px;
-  border: 1px solid #c62828;
+  border: 1px solid #bb0606ff;
   overflow: hidden;
 }
 
@@ -116,7 +116,7 @@ details summary {
   font-size: 1em;
   font-weight: bold;
   color: white !important;
-  background: #c62828;
+  background: #ac1616ff;
   cursor: pointer;
   padding: 15px 20px;
   display: block;
