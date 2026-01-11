@@ -66,6 +66,96 @@ a.paper-box-link {
   display: block;
 }
 
+.collapsible-section {
+  margin-bottom: 30px;
+}
+
+.collapsible-section details {
+  background: white;
+  border: 2px solid #0d47a1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.collapsible-section summary {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  background: #0d47a1;
+  cursor: pointer;
+  padding: 15px 20px;
+  user-select: none;
+  transition: background 0.3s ease;
+}
+
+.collapsible-section summary:hover {
+  background: #1565c0;
+}
+
+.collapsible-section summary::marker {
+  content: '▼ ';
+}
+
+.collapsible-section details[open] summary::marker {
+  content: '▲ ';
+}
+
+.collapsible-content {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/* Red collapsible header bar with rough/sharp edges */
+details {
+  margin-bottom: 10px;
+  border: 1px solid #c62828;
+  overflow: hidden;
+}
+
+details summary {
+  font-size: 1em;
+  font-weight: bold;
+  color: white !important;
+  background: #c62828;
+  cursor: pointer;
+  padding: 15px 20px;
+  display: block;
+  user-select: none;
+  transition: background 0.3s ease;
+  list-style: none;
+  position: relative;
+  border-radius: 0;  /* Sharp corners */
+}
+
+details summary:hover {
+  background: #d32f2f;
+  color: white !important;
+}
+
+details summary::after {
+  content: '▲';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+  color: white !important;
+}
+
+details:not([open]) summary::after {
+  content: '▼';
+}
+
+details summary::marker,
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible-content {
+  padding: 20px;
+  background: white;
+}
+
 .item-box {
   background: white;
   border: 1px solid #e0e0e0;

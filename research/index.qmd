@@ -11,11 +11,15 @@ format:
         </style>
 ---
 
-## Publications
+## Research
+
+<details close>
+<summary class="collapsible-header">Preprints</summary>
+<div class="collapsible-content">
 
 ::::::: paper-box
 ::: paper-title
-(Preprint) [SCAN: A Decision-Making Framework for Task Assignment with Generative AI](https://osf.io/preprints/psyarxiv/g5fd8_v1)
+[SCAN: A Decision-Making Framework for Task Assignment with Generative AI](https://osf.io/preprints/psyarxiv/g5fd8_v1)
 :::
 
 ::: paper-year
@@ -31,9 +35,77 @@ We introduce SCAN-a human-centric decision-making framework to facilitate learne
 :::
 :::::::
 
+</div>
+</details>
+
+
+<details close>
+<summary class="collapsible-header">Working Papers / Manuscripts in Preparation</summary>
+<div class="collapsible-content">
+
+::::::: paper-box
+::: paper-title
+AI as Part of Self: Rethinking Human–AI Coordination, Cognition, and Identity
+:::
+
+::: paper-year
+2025
+:::
+
+::: paper-authors
+with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=en&oi=ao)
+:::
+
+::: paper-description
+The "AI as Part of Self" framework reconceptualizes AI not merely as a tool or agent but as an extension of human cognition.
+:::
+:::::::
+
+::::::: paper-box
+::: paper-title
+CIA: A Prompt Framework Mitigating Sycophancy
+:::
+
+::: paper-year
+2025
+:::
+
+::: paper-authors
+with [Shantanu Sharma](https://orcid.org/0009-0008-8914-9544)
+:::
+
+::: paper-description
+The CIA Framework is a structured approach designed to enhance interactions with Large Language Models (LLMs) where users can uncover deeper insights, identify biases, and arrive at more nuanced understandings of complex topics.
+:::
+:::::::
+
+::::::: paper-box
+::: paper-title
+Division of Cognitive Labor
+:::
+
+::: paper-year
+2025
+:::
+
+::: paper-authors
+with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=en&oi=ao)
+:::
+
+::: paper-description
+:::
+:::::::
+
+</div>
+</details>
+
+<details close>
+<summary class="collapsible-header">PhD Thesis</summary>
+<div class="collapsible-content">
+
 :::::::: paper-box
 ::: paper-title
-PhD Thesis: [An experimental investigation of virtual bargaining in one-shot and repeated games](https://wrap.warwick.ac.uk/id/eprint/191656/1/WRAP_Theses_Tsim_2024.pdf)
+[An experimental investigation of virtual bargaining in one-shot and repeated games](https://wrap.warwick.ac.uk/id/eprint/191656/1/WRAP_Theses_Tsim_2024.pdf)
 :::
 
 ::: paper-year
@@ -120,3 +192,6 @@ Individual Chapters:
 -   Chapter 6: Conclusion
 ::::
 ::::::::
+
+</div>
+</details>

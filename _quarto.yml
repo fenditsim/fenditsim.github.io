@@ -14,12 +14,7 @@ website:
       - text: "About Me"
         href: resume/index.qmd
       - text: "Research"
-        menu:
-        - text: "Publications"
-          href: research/publications/index.qmd
-        - text: "---"  # This creates a separator line
-        - text: "Working Papers"
-          href: research/working-papers/index.qmd
+        href: research/index.qmd
       - text: "Portfolio"
         href: portfolio/index.qmd
     
