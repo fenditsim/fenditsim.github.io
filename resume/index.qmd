@@ -6,6 +6,8 @@ format:
     tbl-colwidths: [30, 60]
 ---
 
+You can access my CV [here](https://drive.google.com/file/d/19H-zepACpJvG2eEUTWtqEv_jNbuCkxvM/view?usp=drive_link).
+
 ## Experience
 
 :::::::::::::::::::::::::::::::::::::::::: timeline
