@@ -53,22 +53,22 @@ Working Papers
 
 </summary>
 
-:::::::::::::::::: collapsible-content
-::::::: paper-box
+::::::::::::::: collapsible-content
+:::::: paper-box
 ::: paper-title
 AI as Part of Self: Rethinking Human–AI Coordination, Cognition, and Identity
 :::
 
 ::: paper-authors
-with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=en&oi=ao)
+with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=en&oi=ao) and [Trisevgeni Papakonstantinou](https://scholar.google.com/citations?user=zEHYHEoAAAAJ&hl=en)
 :::
 
 ::: paper-description
 The "AI as Part of Self" framework reconceptualizes AI not merely as a tool or agent but as an extension of human cognition.
 :::
-:::::::
+::::::
 
-::::::: paper-box
+:::::: paper-box
 ::: paper-title
 CIA: A Prompt Framework Mitigating Sycophancy
 :::
@@ -80,9 +80,9 @@ with [Shantanu Sharma](https://orcid.org/0009-0008-8914-9544)
 ::: paper-description
 The CIA Framework is a structured approach designed to enhance interactions with Large Language Models (LLMs) where users can uncover deeper insights, identify biases, and arrive at more nuanced understandings of complex topics.
 :::
-:::::::
+::::::
 
-::::::: paper-box
+:::::: paper-box
 ::: paper-title
 Division of Cognitive Labor: Human and Artificial Intelligence
 :::
@@ -93,8 +93,8 @@ with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=
 
 ::: paper-description
 :::
-:::::::
-::::::::::::::::::
+::::::
+:::::::::::::::
 
 </details>
 

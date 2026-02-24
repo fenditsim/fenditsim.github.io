@@ -1,12 +1,12 @@
 ---
 about:
   template: trestles
-  image: img/profile_picture.jpg
+  image: img/profile_picture.png
   image-shape: round
   image-width: "360px"
   links:
     - icon: linkedin
-      text: Linkedin
+      text:  Linkedin
       href: https://www.linkedin.com/in/fenditsim/
     - icon: github
       text: Github
@@ -23,12 +23,15 @@ about:
     - icon: medium
       text: Medium
       href: https://medium.com/@fendi.tsim
+    - icon: twitter-x
+      text: X
+      href: https://x.com/FendiTsim
 ---
 
 ::: justify
 Welcome to my personal website!
 
-My name is Fendi. I bridge cognitive psychology and artificial intelligence, studying how human cognition and behaviour can drive informed AI development and strategic decisions.
+My name is Fendi. I bridge cognitive psychology and artificial intelligence, studying how human cognition and behaviour can drive informed AI systems development and strategic decisions.
 
 **Research Interests**
 
@@ -36,31 +39,19 @@ My name is Fendi. I bridge cognitive psychology and artificial intelligence, stu
 
 -   Game Theory
 
--   Cognitive Science
+-   Cognitive Psychology
 
 -   Decision under Risk and Uncertainty
 
--   Human-Computer Interaction
+-   Human-AI Interaction
 
 **Current Focus Areas**
 
 -   AI Impact Assessment
 
--   Adoption Strategy
+-   Benchmarking
 
--   Ethical & Responsible AI Implementation
+-   Digital Twins
 
 I'm actively seeking opportunities where behavioural insights meet cutting-edge AI to tackle complex strategic challenges. I'm ready to collaborate with forward-thinking individuals who recognize that the future of AI success lies in understanding human behaviour.
-
-**A little more about me**
-
-During my spare time I like to spend time with my family and friends, going outdoors and enjoying what Nature has been offering, watching movies and anime (big fan!), taking pictures, going to gym and reading books (trying to be a bookworm - the struggle is real):
-
--   2026: [x books](https://www.goodreads.com/readingchallenges/gr/annual/2026/QTFFUkJLR0FHQ1ZEU0sMjAyNg)
-
--   2025: [42 books](https://www.goodreads.com/review/list/164798015-fendi?read_at=2025)
-
--   2024: [84 books](https://www.goodreads.com/user_challenges/46721122)
-
--   2023: [68 books](https://www.goodreads.com/user_challenges/45178311)
 :::
