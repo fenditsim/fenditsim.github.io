@@ -1,5 +1,174 @@
 /* css styles */
 
+/* ─────────────────────────────────────────────────────────────────────────
+   Override the Bootswatch Journal "red" primary colour with navy blue.
+   Journal bakes $primary into Bootstrap's CSS custom properties, so we
+   must override those variables here to cascade correctly everywhere.
+   ───────────────────────────────────────────────────────────────────────── */
+:root {
+  /* Core primary palette */
+  --bs-primary:            #0d47a1;
+  --bs-primary-rgb:        13, 71, 161;
+  --bs-link-color:         #0d47a1;
+  --bs-link-color-rgb:     13, 71, 161;
+  --bs-link-hover-color:   #1565c0;
+
+  /* Component-level overrides */
+  --bs-navbar-active-color:  #0d47a1;
+  --bs-nav-link-hover-color: #0d47a1;
+  --bs-accordion-btn-active-color:    #0d47a1;
+  --bs-accordion-active-color:        #0d47a1;
+  --bs-accordion-active-bg:           #e8edf5;
+  --bs-list-group-active-bg:          #0d47a1;
+  --bs-list-group-active-border-color:#0d47a1;
+
+  /* These variables control nav link colours in Bootstrap 5 / Journal */
+  --bs-nav-link-color:                #0d47a1;
+  --bs-nav-link-hover-color:          #1565c0;
+  --bs-navbar-color:                  #0d47a1;
+  --bs-navbar-hover-color:            #1565c0;
+  --bs-navbar-active-color:           #0d47a1;
+  --bs-navbar-brand-color:            #0d47a1;
+  --bs-navbar-brand-hover-color:      #1565c0;
+}
+
+/* Scope the same variables to .navbar so they win over Journal's
+   component-level overrides (Journal sets these on .navbar directly) */
+.navbar {
+  --bs-nav-link-color:           #0d47a1 !important;
+  --bs-nav-link-hover-color:     #1565c0 !important;
+  --bs-navbar-color:             #0d47a1 !important;
+  --bs-navbar-hover-color:       #1565c0 !important;
+  --bs-navbar-active-color:      #0d47a1 !important;
+  --bs-navbar-brand-color:       #0d47a1 !important;
+  --bs-navbar-brand-hover-color: #1565c0 !important;
+}
+
+/* Catch any remaining Journal-red rules that ignore CSS variables */
+a, a:visited {
+  color: #0d47a1;
+}
+a:hover {
+  color: #1565c0;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background-color: #0d47a1 !important;
+  border-color:     #0d47a1 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #1565c0 !important;
+  border-color:     #1565c0 !important;
+}
+
+/* Outline primary buttons */
+.btn-outline-primary {
+  color:        #0d47a1 !important;
+  border-color: #0d47a1 !important;
+}
+.btn-outline-primary:hover {
+  background-color: #0d47a1 !important;
+  border-color:     #0d47a1 !important;
+  color: #fff !important;
+}
+
+/* Navbar — covers .navbar-light, .navbar-dark, and Journal's custom variant */
+.navbar-brand,
+.navbar .navbar-brand,
+.navbar-light .navbar-brand,
+.navbar-dark .navbar-brand {
+  color: #0d47a1 !important;
+}
+
+/* All navbar links — no matter which navbar variant Journal uses */
+.navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link {
+  color: #0d47a1 !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1565c0 !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #0d47a1 !important;
+  font-weight: bold;
+}
+
+/* Active nav pills and tabs */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #0d47a1 !important;
+}
+.nav-tabs .nav-link.active {
+  color: #0d47a1 !important;
+  border-color: #0d47a1 #0d47a1 #fff !important;
+}
+
+/* Pagination active page */
+.page-item.active .page-link {
+  background-color: #0d47a1 !important;
+  border-color:     #0d47a1 !important;
+}
+.page-link {
+  color: #0d47a1 !important;
+}
+.page-link:hover {
+  color: #1565c0 !important;
+}
+
+/* Progress bars */
+.progress-bar {
+  background-color: #0d47a1 !important;
+}
+
+/* Text / background / badge utilities */
+.text-primary  { color: #0d47a1 !important; }
+.bg-primary    { background-color: #0d47a1 !important; }
+.badge.bg-primary { background-color: #0d47a1 !important; }
+
+/* List group active item */
+.list-group-item.active {
+  background-color: #0d47a1 !important;
+  border-color:     #0d47a1 !important;
+}
+
+/* Alerts – primary */
+.alert-primary {
+  color:            #0a3a8a !important;
+  border-color:     #b3c6e7 !important;
+  background-color: #e8edf5 !important;
+}
+
+/* Form focus ring */
+.form-control:focus,
+.form-select:focus {
+  border-color: #0d47a1 !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 71, 161, 0.25) !important;
+}
+
+/* Quarto-specific: sidebar active item and TOC highlight */
+.sidebar-item-container .active,
+.sidebar nav .active > a,
+#TOC a.active {
+  color: #0d47a1 !important;
+}
+
+/* Quarto callout */
+div.callout-primary {
+  border-left-color: #0d47a1 !important;
+}
+
+/* ── End of navy blue overrides ── */
+
 table, td {
   border-style: none;
 }
@@ -108,7 +277,7 @@ a.paper-box-link {
 /* Red collapsible header bar with rough/sharp edges */
 details {
   margin-bottom: 10px;
-  border: 1px solid #bb0606ff;
+  border: 1px solid #0a3a8a;
   overflow: hidden;
 }
 
@@ -116,7 +285,7 @@ details summary {
   font-size: 1em;
   font-weight: bold;
   color: white !important;
-  background: #ac1616ff;
+  background: #0d47a1;
   cursor: pointer;
   padding: 15px 20px;
   display: block;
@@ -128,7 +297,7 @@ details summary {
 }
 
 details summary:hover {
-  background: #d32f2f;
+  background: #1565c0;
   color: white !important;
 }
 
@@ -238,7 +407,7 @@ a.item-box-link {
 /* 4. Add a hover effect for the list items */
 .about-link:hover {
   background-color: #f8f9fa !important;
-  color: #ff0000ff !important;
+  color: #0d47a1 !important;
 }
 
 /* Skills customization */
@@ -260,7 +429,7 @@ a.item-box-link {
 /* Style the clickable badge */
 .skill-badge {
   background-color: #ffffffff;
-  border: 1px solid #ff0000ff;
+  border: 1px solid #0d47a1;
   border-radius: 8px;
   padding: 10px;
   transition: all 0.3s ease;
@@ -328,7 +497,7 @@ a.item-box-link {
   top: 5px;
   width: 16px;
   height: 16px;
-  background-color: #ff0000ff; /* Change to your brand color */
+  background-color: #0d47a1; /* Change to your brand color */
   border: 3px solid #fff;
   border-radius: 50%;
   z-index: 1;
@@ -361,7 +530,7 @@ a.item-box-link {
 .timeline-content summary::after {
   content: ' +';
   font-size: 0.8em;
-  color: #ff0000ff;
+  color: #0d47a1;
 }
 
 .timeline-content[open] summary::after {
@@ -378,3 +547,41 @@ a.item-box-link {
   padding-left: 20px;
   font-size: 0.95rem;
 }
+/* ── Navbar nuclear override ──────────────────────────────────────────────
+   Quarto + Journal bakes link colours deep into compiled CSS. These rules
+   use the highest practical specificity to guarantee navy wins everywhere. */
+#quarto-header .nav-link,
+#quarto-header .navbar-brand,
+#quarto-header .navbar-nav .nav-link,
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar-nav .nav-link,
+.navbar-nav > li > a,
+nav.navbar a {
+  color: #0d47a1 !important;
+}
+
+#quarto-header .nav-link:hover,
+#quarto-header .nav-link:focus,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #1565c0 !important;
+}
+/* ── End navbar nuclear override ── */
+
+/* ── Calibri font across all elements ────────────────────────────────────
+   Calibri is a system font on Windows/macOS. The stack falls back to
+   similar humanist sans-serifs on Linux / older systems.              */
+body,
+p, li, td, th, blockquote, label, input, select, textarea, button,
+h1, h2, h3, h4, h5, h6,
+.navbar, .navbar-brand, .nav-link,
+#quarto-header, #quarto-header *,
+.navbar *, .navbar-nav *,
+.quarto-title, .quarto-title *,
+#title-block-header, #title-block-header * {
+  font-family: "Calibri", "Calibri Light", "Carlito", "Candara", sans-serif !important;
+}
+/* ── End Calibri override ── */
