@@ -585,3 +585,70 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Calibri", "Calibri Light", "Carlito", "Candara", sans-serif !important;
 }
 /* ── End Calibri override ── */
+
+/* ── Vibe-coded apps grid ─────────────────────────────────────────────── */
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.app-card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  background: #fff;
+}
+
+.app-card:hover {
+  box-shadow: 0 6px 20px rgba(13, 71, 161, 0.18);
+  transform: translateY(-3px);
+  text-decoration: none !important;
+}
+
+/* The iframe preview window */
+.app-preview {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  background: #f0f4fb;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.app-preview iframe {
+  width: 200%;            /* render at 2× width then scale down 50% */
+  height: 200%;
+  border: none;
+  transform: scale(0.5);
+  transform-origin: top left;
+  pointer-events: none;   /* prevent interaction with the preview */
+}
+
+/* Title bar */
+.app-card-title {
+  padding: 0.6rem 0.85rem;
+  font-family: "Calibri", "Carlito", sans-serif !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0d47a1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* ── End apps grid ── */
+
+/* ── Navbar toggler (hamburger) icon — override Journal's red SVG ── */
+.navbar-toggler {
+  border-color: rgba(13, 71, 161, 0.5) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2813%2C 71%2C 161%2C 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+/* ── End hamburger override ── */
