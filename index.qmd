@@ -6,7 +6,7 @@ about:
   image-width: "360px"
   links:
     - icon: linkedin
-      text:  Linkedin
+      text: Linkedin
       href: https://www.linkedin.com/in/fenditsim/
     - icon: github
       text: Github
@@ -54,4 +54,10 @@ My name is Fendi. I bridge cognitive psychology and artificial intelligence, stu
 -   Digital Twins
 
 I'm actively seeking opportunities where behavioural insights meet cutting-edge AI to tackle complex strategic challenges. I'm ready to collaborate with forward-thinking individuals who recognize that the future of AI success lies in understanding human behaviour.
+
+**Vibe-Coded Products**
+
+-   [London study place map](https://fenditsim.github.io/london-study-place-map/)
+
+-   [LinkedIn Graphs (LIPs)](https://fenditsim.github.io/lips/)
 :::
