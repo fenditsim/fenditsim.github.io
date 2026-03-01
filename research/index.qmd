@@ -11,10 +11,7 @@ format:
         </style>
 ---
 
-## Research
-
-**Research interests:** Behavioural Economics, Game Theory, Cognitive Science, Decision under Risk and Uncertainty, and Human-Computer Interaction
-
+## What I've been thinking about...
 <details close>
 
 <summary class="collapsible-header">
@@ -53,7 +50,7 @@ Working Papers
 
 </summary>
 
-::::::::::::::: collapsible-content
+::::::::::::::::::: collapsible-content
 :::::: paper-box
 ::: paper-title
 AI as Part of Self: Rethinking Human–AI Coordination, Cognition, and Identity
@@ -105,11 +102,10 @@ with [Kumaran Rajaram](https://scholar.google.com/citations?user=gaUcSg0AAAAJ&hl
 :::
 
 ::: paper-description
-This framework conceptualizes what an “effective” teacher–student collaborative design in management educa-
-tion with Generative AI looks like.
+This framework conceptualizes what an “effective” teacher–student collaborative design in management educa- tion with Generative AI looks like.
 :::
 ::::::
-:::::::::::::::
+:::::::::::::::::::
 
 </details>
 
