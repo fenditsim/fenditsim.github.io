@@ -94,6 +94,21 @@ with [Alina Gutoreva](https://scholar.google.com/citations?user=bjfbYmAAAAAJ&hl=
 ::: paper-description
 :::
 ::::::
+
+:::::: paper-box
+::: paper-title
+Effective Teacher–student learning design with Generative AI in Management Education
+:::
+
+::: paper-authors
+with [Kumaran Rajaram](https://scholar.google.com/citations?user=gaUcSg0AAAAJ&hl=en&oi=ao)
+:::
+
+::: paper-description
+This framework conceptualizes what an “effective” teacher–student collaborative design in management educa-
+tion with Generative AI looks like.
+:::
+::::::
 :::::::::::::::
 
 </details>
